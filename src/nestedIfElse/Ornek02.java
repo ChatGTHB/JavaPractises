@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Ornek02 {
     public static void main(String[] args) {
 
-        // Girilen 3 sayıyı "küçükten büyüğe" doğru
-        // sıralayan programı Java ile yazınız.
+        /**
+          Girilen 3 sayıyı "küçükten büyüğe" doğru sıralayan programı Java ile yazınız.
+          Herhangi birden fazla aynı sayı girilirse ekrana
+          "Yanlış giriş yaptınız. Lütfen farklı sayılar girin." yazdırınız.
+         */
 
         int sayi1, sayi2, sayi3;
 
