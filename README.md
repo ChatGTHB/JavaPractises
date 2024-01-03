@@ -1,7 +1,9 @@
 #Java Training
 
-ifElse
-javaSwitch
-nestedIfElse
-scanner
-ternary
+If Else
+Switch
+NestedIfElse
+Scanner
+Ternary
+2DArrays
+For Loop
