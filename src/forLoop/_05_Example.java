@@ -3,7 +3,7 @@ package forLoop;
 
 import java.util.Scanner;
 
-public class Ornek05 {
+public class _05_Example {
     public static void main(String[] args) {
 
         // Kullanıcıdan alınan sayının faktöriyelini veren Java programı yazınız.

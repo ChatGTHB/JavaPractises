@@ -2,7 +2,7 @@ package javaSwitch;
 
 import java.util.Scanner;
 
-public class Ornek01 {
+public class _01_Example {
     public static void main(String[] args) {
 
         /**

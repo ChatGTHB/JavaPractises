@@ -1,6 +1,6 @@
-package array2D;
+package arrays2D;
 
-public class Ornek09 {
+public class _09_Example {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package forLoop;
 
 import java.util.Scanner;
 
-public class Ornek04 {
+public class _04_Example {
     public static void main(String[] args) {
 
         // Girilen metni tersten yazdıran bir Java programı yazınız.

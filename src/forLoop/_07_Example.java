@@ -2,7 +2,7 @@ package forLoop;
 
 import java.util.Scanner;
 
-public class Ornek07 {
+public class _07_Example {
 
     public static void main(String[] args) {
 

@@ -1,8 +1,8 @@
-package array2D;
+package arrays2D;
 
 import java.util.Arrays;
 
-public class Ornek07 {
+public class _07_Example {
     public static void main(String[] args) {
 
         // 4*4 bir int 2D Array tanımlayınız ve random doldurup ekrana yazdırınız 0 den 10'a kadar (10 dahil)

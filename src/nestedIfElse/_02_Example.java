@@ -2,7 +2,7 @@ package nestedIfElse;
 
 import java.util.Scanner;
 
-public class Ornek02 {
+public class _02_Example {
     public static void main(String[] args) {
 
         /**

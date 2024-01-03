@@ -2,7 +2,7 @@ package forLoop;
 
 import java.util.Scanner;
 
-public class Ornek06 {
+public class _06_Example {
     public static void main(String[] args) {
 
         // Kullanıcıdan bir kelime alıp, aşağıdaki gibi yazdıran Java programı yazınız.
