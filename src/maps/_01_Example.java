@@ -76,7 +76,6 @@ public class _01_Example {
         System.out.println("Toplam Tutar: " + toplamTutar);
 
         // 7- Kullanıcının girdiği sipariş listesini ekrana yazdırmalıdır.
-
         System.out.println("\nSiparişleriniz:");
 
         for (String siparis : siparisler) {
