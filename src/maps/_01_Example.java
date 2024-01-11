@@ -68,18 +68,18 @@ public class _01_Example {
 
         // İndirim tutarını hesapla
         double indirimTutari = hesaplaIndirimTutari(menu, ozelTeklifler, siparisler);
-        System.out.println("İndirim Tutari: "+indirimTutari);
+        System.out.println("İndirim Tutari: " + indirimTutari);
 
         // 6- Program, toplam tutarı hesaplayarak ekrana yazdırmalıdır (toplam fiyat - indirim tutarı).
         // Toplam tutarı hesaplama
-        double toplamTutar=toplamFiyat-indirimTutari;
-        System.out.println("Toplam Tutar: "+toplamTutar);
+        double toplamTutar = toplamFiyat - indirimTutari;
+        System.out.println("Toplam Tutar: " + toplamTutar);
 
-         // 7- Kullanıcının girdiği sipariş listesini ekrana yazdırmalıdır.
+        // 7- Kullanıcının girdiği sipariş listesini ekrana yazdırmalıdır.
 
         System.out.println("\nSiparişleriniz:");
 
-        for(String siparis:siparisler){
+        for (String siparis : siparisler) {
             System.out.println(siparis);
         }
 
@@ -87,6 +87,7 @@ public class _01_Example {
         System.out.println("***** Bizi Tercih Ettiğiniz için Teşekkür Ederiz! *****");
     }
 
+    // İndirim tutarını hesaplayan metot oluştur
     public static double hesaplaIndirimTutari(HashMap<String, Double> menu, HashMap<String, Double> ozelTeklifler, String[] siparisler) {
         double indirimTutari = 0.0;
 
@@ -101,6 +102,7 @@ public class _01_Example {
         return indirimTutari;
     }
 
+    // İndirimsiz toplam tutarı hesaplayan metot oluştur.
     public static double hesaplaToplamFiyat(Map<String, Double> menu, String[] siparisler) {
         double toplam = 0.0;
 
