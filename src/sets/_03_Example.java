@@ -40,7 +40,8 @@ public class _03_Example {
          * nextLine() metodu çağrılmadan önce bir nextLine() çağrısı daha ekleyebilirsiniz.
          * Bu, nextInt()'dan sonra kalan yeni satır karakterini okuyacak ve bir sonraki satıra geçecektir.
          */
-        scanner.nextLine(); // Yeni satır karakterini oku ve atla
+
+       scanner.nextLine(); // Yeni satır karakterini oku ve atla
 
         // Her öğrenci ismini kullanıcıdan alın ve LinkedHashSet'e ekleyin
         for (int i = 1; i <= ogrenciSayisi; i++) {
