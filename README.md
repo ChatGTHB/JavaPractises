@@ -1,4 +1,4 @@
-# Java Training
+# Java Training Practices
 
 ## If Else
 ## Switch
