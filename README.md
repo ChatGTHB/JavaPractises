@@ -9,3 +9,4 @@
 ## For Loop
 ## Sets
 ## Maps
+## Static and NonStatic Methods
