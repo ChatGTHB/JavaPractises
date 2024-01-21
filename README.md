@@ -9,3 +9,5 @@
 ## For Loop
 ## Sets
 ## Maps
+## Encapsulation
+## Inheritance
