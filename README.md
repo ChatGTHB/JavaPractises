@@ -9,5 +9,6 @@
 ## For Loop
 ## Sets
 ## Maps
+## Static and NonStatic Methods
 ## Encapsulation
 ## Inheritance
