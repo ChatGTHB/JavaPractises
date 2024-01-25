@@ -1,10 +1,9 @@
 package inheritance.ornek01;
 
-// Hayvan sınıfı oluşturuldu
+// Hayvan sınıfı
 public class Hayvan {
     String renk;
     int yas;
-
 
     // Hayvan sınıfının yapıcı metodu
     public Hayvan(String renk, int yas) {

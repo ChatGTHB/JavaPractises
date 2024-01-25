@@ -1,14 +1,13 @@
 package inheritance.ornek01;
 
-// Kedi sınıfı oluşturuldu
+// Kedi sınıfı
 public class Kedi extends Hayvan {
-
-    // Kedi sınıfının yapıcı methodu oluşturuldu. (constructor)
+    // Kedi sınıfının yapıcı metodu (constructor)
     public Kedi(String renk, int yas) {
         super(renk, yas);
     }
 
-    // Miyavlama methodu eklendi
+    // Kedi sınıfının miyavla metodu
     public void miyavla() {
         System.out.println("Kedi miyavladı!");
     }
