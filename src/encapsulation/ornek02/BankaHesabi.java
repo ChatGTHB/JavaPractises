@@ -11,7 +11,7 @@ public class BankaHesabi {
     private double hesapBakiyesi; // Hesap bakiyesini temsil eden özellik
     private final List<HesapHareketi> hesapHareketleri; // Hesap hareketlerini temsil eden özellik
 
-    public BankaHesabi(String musteriAdi, String musteriSoyadi, double hesapBakiyesi, int hesapNumarasi) {
+    public BankaHesabi(String musteriAdi, String musteriSoyadi, int hesapNumarasi, double hesapBakiyesi) {
         this.musteriAdi = musteriAdi;
         this.musteriSoyadi = musteriSoyadi;
         this.hesapBakiyesi = hesapBakiyesi;
@@ -85,3 +85,15 @@ public class BankaHesabi {
         return result;
     }
 }
+
+/**
+ * BankaHesabi sınıfı müşteri bilgilerini ve hesap hareketlerini tutmak için kullanılıyor.
+ * Bu sınıfın özellikleri (ad, soyad, hesap numarası, hesap bakiyesi) private olarak tanımlanmış
+ * ve bu özelliklere erişim için getter ve setter metodları kullanılarak
+ * müşteri bilgilerinin doğrudan erişilebilir olmasının önüne geçilmiştir.
+ * <p>
+ * Ayrıca, BankaHesabi sınıfında hesapHareketiEkle metodu tanımlanmıştır.
+ * Bu metod, tarih, açıklama, miktar ve işlem türü parametrelerini alarak
+ * yeni bir HesapHareketi nesnesi oluşturur ve bu nesneyi hesapHareketleri listesine ekler.
+ * Bu sayede, hesap hareketlerinin güvenli bir şekilde eklenmesi sağlanmıştır.
+ */

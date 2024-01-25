@@ -2,13 +2,10 @@ package encapsulation.ornek02;
 
 public class HesapHareketi {
 
-    private final String  tarih;    // Hesap hareketinin gerçekleştiği tarih
-
-    private final String aciklama;  // Hesap hareketinin açıklaması
-
-    private final double miktar;    // Hesap hareketindeki miktar
-
-    private final String islemTuru; // Hesap hareketindeki işlem türü
+    private final String tarih; // Hesap hareketinin yapıldığı tarihi temsil eden özellik
+    private final String aciklama; // Hesap hareketinin açıklamasını temsil eden özellik
+    private final double miktar; // Hesap hareketindeki miktarı temsil eden özellik
+    private final String islemTuru; // Hesap hareketinin türünü temsil eden özellik
 
 
     public HesapHareketi(String tarih, String aciklama, double miktar, String islemTuru) {
@@ -44,3 +41,9 @@ public class HesapHareketi {
                 '}';
     }
 }
+
+/**
+ * HesapHareketi sınıfı tarih, açıklama, miktar ve işlem türü gibi özellikleri
+ * tutmak için kullanılmıştır. Bu sınıfın özellikleri private olarak tanımlanmış
+ * ve bu özelliklere erişim için getter metodları kullanılmıştır.
+ */
