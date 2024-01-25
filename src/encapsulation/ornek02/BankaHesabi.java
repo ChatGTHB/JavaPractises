@@ -1,5 +1,6 @@
 package encapsulation.ornek02;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BankaHesabi {
@@ -10,12 +11,12 @@ public class BankaHesabi {
     private double hesapBakiyesi; // Hesap bakiyesini temsil eden özellik
     private final List<HesapHareketi> hesapHareketleri; // Hesap hareketlerini temsil eden özellik
 
-    public BankaHesabi(String musteriAdi, String musteriSoyadi, double hesapBakiyesi, int hesapNumarasi, List<HesapHareketi> hesapHareketleri) {
+    public BankaHesabi(String musteriAdi, String musteriSoyadi, double hesapBakiyesi, int hesapNumarasi) {
         this.musteriAdi = musteriAdi;
         this.musteriSoyadi = musteriSoyadi;
         this.hesapBakiyesi = hesapBakiyesi;
         this.hesapNumarasi = hesapNumarasi;
-        this.hesapHareketleri = hesapHareketleri; // Hesap hareketleri listesini başlatma
+        this.hesapHareketleri = new ArrayList<>(); // Hesap hareketleri listesini başlatma
     }
 
     public String getMusteriAdi() {
@@ -55,14 +56,32 @@ public class BankaHesabi {
         hesapHareketleri.add(hareket); // Yeni hesap hareketini listeye ekleme
     }
 
+//    @Override
+//    public String toString() {
+//        return "BankaHesabi{" +
+//                "hesapNumarasi=" + hesapNumarasi +
+//                ", musteriAdi='" + musteriAdi + '\'' +
+//                ", musteriSoyadi='" + musteriSoyadi + '\'' +
+//                ", hesapBakiyesi=" + hesapBakiyesi +
+//                ", hesapHareketleri=" + hesapHareketleri +
+//                '}';
+//    }
+
     @Override
     public String toString() {
-        return "BankaHesabi{" +
-                "hesapNumarasi=" + hesapNumarasi +
-                ", musteriAdi='" + musteriAdi + '\'' +
-                ", musteriSoyadi='" + musteriSoyadi + '\'' +
-                ", hesapBakiyesi=" + hesapBakiyesi +
-                ", hesapHareketleri=" + hesapHareketleri +
-                '}';
+        String result = "Ad: " + this.musteriAdi+ "\n"
+                + "Soyad: " + this.musteriSoyadi + "\n"
+                + "Hesap Numarası: " + hesapNumarasi + "\n"
+                + "Bakiye: " + this.hesapBakiyesi + "\n\n";
+
+        result += "Hesap Hareketleri:\n";
+        for (HesapHareketi hareket : hesapHareketleri) {
+            result += "Tarih: " + hareket.getTarih() + "\n"
+                    + "Açıklama: " + hareket.getAciklama() + "\n"
+                    + "Miktar: " + hareket.getMiktar() + "\n"
+                    + "İşlem Türü: " + hareket.getIslemTuru() + "\n"
+                    + "----------------------\n";
+        }
+        return result;
     }
 }
