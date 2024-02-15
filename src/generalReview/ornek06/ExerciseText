@@ -1,0 +1,21 @@
+Java döngüler ile girilen sayıya kadar olan 4 ve 5'in kuvvetlerini ekrana yazdıran program.
+
+Açıklama:
+
+1)- Kullanıcıdan bir sayı girmesi istenecek.
+2)- Kullanıcının girdiği sayıya kadar varsa 4'ün ve 5'in tüm katları yazdırılacak.
+
+Örnek Çıktı:
+
+Lütfen bir sayı giriniz: 17
+
+4'ün katları:
+1
+4
+16
+
+5'in katları:
+1
+5
+
+

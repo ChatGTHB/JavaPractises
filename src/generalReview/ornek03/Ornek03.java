@@ -22,23 +22,24 @@ public class Ornek03 {
         Patlıcan : 25,00 TL
          */
 
-        float toplamFiyat = 0, kilogram;
+        float fiyat = 0, kilogram;
 
         Scanner input = new Scanner(System.in);
 
-        Map<String, Float> fruits = new LinkedHashMap<>();
-        fruits.put("Armut", 12.14f);
-        fruits.put("Elma", 23.67f);
-        fruits.put("Domates", 21.11f);
-        fruits.put("Muz", 10.95f);
-        fruits.put("Patlıcan", 25.00f);
+        Map<String, Float> meyveler = new LinkedHashMap<>();
+        meyveler.put("Armut", 12.14f);
+        meyveler.put("Elma", 23.67f);
+        meyveler.put("Domates", 21.11f);
+        meyveler.put("Muz", 10.95f);
+        meyveler.put("Patlıcan", 25.00f);
 
-        for (Map.Entry<String, Float> fruit : fruits.entrySet()) {
-            System.out.print("Kaç kilo " + fruit.getKey() + "? :");
+        for (Map.Entry<String, Float> meyve : meyveler.entrySet()) {
+            System.out.print("Kaç kilo " + meyve.getKey() + "? :");
             kilogram = input.nextFloat();
-            // toplamFiyat = toplamFiyat + kilogram * fruit.getValue();
-            toplamFiyat += kilogram * fruit.getValue();
-            System.out.println("Ara Toplam: ");
+            // fiyat = fiyat + kilogram * meyve.getValue();
+            fiyat += kilogram * meyve.getValue();
+            System.out.printf("Ara Toplam = %.2f TL%n",fiyat);
         }
+        System.out.printf("%nToplam Tutar = %.2f TL%n",fiyat);
     }
 }
