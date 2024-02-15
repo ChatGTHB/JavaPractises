@@ -22,7 +22,7 @@ public class Ornek03 {
         Patlıcan : 25,00 TL
          */
 
-        float totalAmount = 0, kilogram;
+        float toplamFiyat = 0, kilogram;
 
         Scanner input = new Scanner(System.in);
 
@@ -36,7 +36,8 @@ public class Ornek03 {
         for (Map.Entry<String, Float> fruit : fruits.entrySet()) {
             System.out.print("Kaç kilo " + fruit.getKey() + "? :");
             kilogram = input.nextFloat();
-            totalAmount = totalAmount + kilogram * fruit.getValue();
+            // toplamFiyat = toplamFiyat + kilogram * fruit.getValue();
+            toplamFiyat += kilogram * fruit.getValue();
             System.out.println("Ara Toplam: ");
         }
     }
