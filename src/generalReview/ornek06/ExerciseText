@@ -4,6 +4,7 @@ Açıklama:
 
 1)- Kullanıcıdan bir sayı girmesi istenecek.
 2)- Kullanıcının girdiği sayıya kadar varsa 4'ün ve 5'in tüm katları yazdırılacak.
+    Not: Tüm sayıların 0'ıncı kuvveti 1'e eşittir.
 
 Örnek Çıktı:
 
