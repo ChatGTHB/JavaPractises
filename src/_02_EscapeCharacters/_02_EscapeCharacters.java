@@ -1,3 +1,5 @@
+package _02_EscapeCharacters;
+
 public class _02_EscapeCharacters {
 
     public static void main(String[] args) {

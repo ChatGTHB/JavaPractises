@@ -1,3 +1,5 @@
+package _04_DataTypes;
+
 public class _04_DataTypes {
     public static void main(String[] args) {
 
