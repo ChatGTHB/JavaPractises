@@ -1,4 +1,4 @@
-package ternary;
+package _10_Ternary;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class _05_Example {
         // Kullanıcıdan bir harf girişi alarak, bu harfin
         // sesli veya sessiz harf olduğunu belirleyen bir program yazın.
         // Ternary operatörü kullanarak çözün.
+
 
         Scanner input = new Scanner(System.in);
 

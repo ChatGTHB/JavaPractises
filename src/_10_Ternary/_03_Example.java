@@ -1,4 +1,4 @@
-package ternary;
+package _10_Ternary;
 
 import java.util.Scanner;
 
@@ -12,11 +12,12 @@ public class _03_Example {
         // Ternary operatörü kullanarak çözün.
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Lütfen yaşınızı giriniz: ");
+        System.out.println("Lütfen yaşınızı giriniz: ");
         int yas = input.nextInt();
         input.close();
 
-        String mesaj = (yas < 18) ? "Merhaba genç arkadaşım" : (yas >= 18 && yas < 65) ? "Merhaba saygıdeğer dostum" : "Merhaba kıymetli büyüğüm";
+        // ternary operatörü ile çözüm
+        String mesaj = yas < 18 ? "Merhaba genç arkadaşım" : yas < 65 ? "Merhaba saygıdeğer dostum" : "Merhaba kıymetli büyüğüm";
         System.out.println(mesaj);
     }
 }

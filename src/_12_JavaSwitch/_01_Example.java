@@ -1,10 +1,9 @@
-package javaSwitch;
+package _12_JavaSwitch;
 
 import java.util.Scanner;
 
 public class _01_Example {
     public static void main(String[] args) {
-
         /**
          Soru:
          Kullanıcıdan bir ayın numarasını (1-12 arası) alan
@@ -13,7 +12,7 @@ public class _01_Example {
          */
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Bir ay numarası giriniz (1-12): ");
+        System.out.print("Bir ay numarası girin (1-12): ");
         int ay = input.nextInt();
         input.close();
 
@@ -60,6 +59,7 @@ public class _01_Example {
                 ayAdi = "Geçersiz ay numarası";
                 break;
         }
-        System.out.println("Girilen ay numarasına karşılık gelen ay : " + ayAdi);
+
+        System.out.println("Girilen ay numarasına karşılık gelen ay: " + ayAdi);
     }
 }

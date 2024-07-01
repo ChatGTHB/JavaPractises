@@ -1,4 +1,4 @@
-package javaSwitch;
+package _12_JavaSwitch;
 
 import java.util.Scanner;
 
@@ -33,7 +33,6 @@ public class _03_Example {
                 harfTuru = "sessiz harf";
                 break;
         }
-
         System.out.println(harf + " bir " + harfTuru + "tir.");
     }
 }

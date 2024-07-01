@@ -1,10 +1,9 @@
-package ifElse;
+package _09_IfElse;
 
 import java.util.Scanner;
 
 public class _05_Example {
     public static void main(String[] args) {
-
         // Kullanıcıdan bir harf girişi alarak, bu harfin
         // sesli veya sessiz harf olduğunu belirleyen bir program yazın.
 

@@ -1,4 +1,4 @@
-package ternary;
+package _10_Ternary;
 
 import java.util.Scanner;
 
@@ -6,12 +6,11 @@ public class _01_Example {
     public static void main(String[] args) {
 
         //  Kullanıcının girdiği yaşa göre "Ehliyet alabilirsiniz" veya
-        // "Ehliyet alamazsınız" mesajı veren bir Java programı yazın.
-        // Ehliyet yaşı 18'dir.
-        //  Ternary operatör kullanarak gerekli kontrolü yapınız.
+        // "Ehliyet alamazsınız" mesajı veren bir Java programı yazın. Ehliyet yaşı 18'dir.
+        // Ternary operatör kullanarak gerekli kontrolü yapınız.
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Yaşınızı giriniz: ");
+        System.out.print("Yaşınızı giriniz: ");
         int yas = input.nextInt();
         input.close();
 

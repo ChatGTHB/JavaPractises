@@ -3,25 +3,22 @@ package _06_Scanner;
 import java.util.Scanner;
 
 public class _02_Example {
+    /**
+     * *2. Soru: Kullanıcıdan adını ve yaşını alarak ekrana
+     * "Merhaba, {ad}! {yaş} yaşındasın." şeklinde bir çıktı yazdıran bir program yazın.**
+     */
 
     public static void main(String[] args) {
 
-        // Kullanıcıdan iki ondalık sayı girmesini isteyin ve bu sayıların toplamını ekrana yazdırın.
-        Scanner oku = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        Scanner inputStr = new Scanner(System.in);
 
-        // Kullanıcıdan birinci ondalık sayıyı girmesini istiyoruz.
-        System.out.print("Birinci ondalık sayı = ");
-        double sayi1 = oku.nextDouble();
+        System.out.println("İsim giriniz: ");
+        String name = inputStr.nextLine();
 
-        // Kullanıcıdan ikinci ondalık sayıyı girmesini istiyoruz.
-        System.out.print("İkinci ondalık sayı = ");
-        double sayi2 = oku.nextDouble();
+        System.out.println("Yaşınızı giriniz:");
+        int yas = input.nextInt();
 
-        // Sayıların toplamını hesaplıyoruz.
-        Double toplam = sayi1 + sayi2;
-
-        // Sonucu ekrana yazdırıyoruz.
-        System.out.println("Toplam = " + toplam);
-
+        System.out.println("Merhaba, " + name + "! " + yas + " yaşındasın.");
     }
 }

@@ -1,20 +1,19 @@
-package javaSwitch;
+package _12_JavaSwitch;
 
 import java.util.Scanner;
 
 public class _02_Example {
     public static void main(String[] args) {
-
         /**
          Soru:
-         Kullanıcıdan bir gün adı alınız ve
+         Kullanıcıdan bir gün adı alan ve
          bu günün hafta içi mi yoksa hafta sonu mu olduğunu belirten
-         bir Java programı yazınız.
+         bir Java programı yazın.
          */
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Bir gün adı giriniz: ");
-        String gun = input.nextLine().toLowerCase();
+        System.out.print("Bir gün adı girin: ");
+        String gun = input.nextLine();
 
         String turu;
 
@@ -34,6 +33,6 @@ public class _02_Example {
                 turu = "Geçersiz gün adı";
                 break;
         }
-        System.out.println(gun.substring(0, 1).toUpperCase() + gun.substring(1) + " " + turu + " dır/dur");
+        System.out.println(gun.substring(0, 1).toUpperCase() + gun.substring(1) + " " + turu + "dır/dur.");
     }
 }
