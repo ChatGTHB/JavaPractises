@@ -2,7 +2,7 @@ package _13_NestedIfElse;
 
 import java.util.Scanner;
 
-public class Ornek02 {
+public class _02_Example {
     public static void main(String[] args) {
         // Girilen 3 sayıyı "küçükten büyüğe" doğru
         // sıralayan programı Java ile yazınız.

@@ -1,10 +1,8 @@
-package forLoop;
+package _14_ForLoop;
 
 public class _09_Example {
-
     public static void main(String[] args) {
-
-        // 1 den 7 ye kadar (7 dahil) olan sayıların toplamını aşağıdaki gibi yazdırınız.
+        // 1 dan 7 ye kadar (7 dahil) olan sayıların toplamını aşağıdaki gibi yazdırınız.
 
         // Toplama tablosu
 
@@ -13,12 +11,12 @@ public class _09_Example {
         // 1 + 3 = 4
         // 1 + 4 = 5
         // 1 + 5 = 6
-        // .....
-        // 7 + 1 = 8
-        // 7 + 2 = 9
-        // 7 + 3 = 10
-        // 7 + 4 = 11
-        // 7 + 5 = 12
+
+        // 2 + 1 = 3
+        // 2 + 2 = 4
+        // 2 + 3 = 5
+        // 2 + 4 = 6
+        // 2 + 5 = 7
         // ......
 
         for (int i = 1; i <= 7; i++) {
@@ -29,3 +27,4 @@ public class _09_Example {
         }
     }
 }
+

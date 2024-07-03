@@ -2,7 +2,7 @@ package _13_NestedIfElse;
 
 import java.util.Scanner;
 
-public class Ornek01 {
+public class _01_Example {
     public static void main(String[] args) {
         /**
          1)- Java programlama dilinde, kullanıcı adı ve şifre isteyen bir program yazınız.
