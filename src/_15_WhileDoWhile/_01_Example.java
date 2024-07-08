@@ -7,7 +7,7 @@ public class _01_Example {
         // Girilen bir stringin her kelimesini ayrı bir değişkene
         // tanımlayıp kelimeleri ayrı ayrı yazdıran programı yazınız.
 
-        /* Örnek: Girdi => " Mehmet Ali Yılmaz "
+        /* Örnek: Girdi => "Mehmet Ali Yılmaz"
            Çıktı =>
            Mehmet
            Ali

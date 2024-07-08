@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class _03_Example {
     public static void main(String[] args) {
-
-        // Kullanıcıdan bir sayı girmesini isteyen ve girilen sayının pozitif bir sayı olduğu sürece ekrana
-        // "Merhaba!" yazan bir Java programı yazınız.
-        // Kullanıcı negatif bir sayı girdiğinde program sonlanmalı.
+        // Kullanıcıdan bir sayı girmesini isteyen ve girilen sayı pozitif olduğu sürece
+        // ekrana "Merhaba!" yazan bir Java programı yazınız.
+        // Kullanıcı negatif bir sayı girdiğinde program sonlanmalıdır.
 
         Scanner scanner = new Scanner(System.in);
         int sayi;
