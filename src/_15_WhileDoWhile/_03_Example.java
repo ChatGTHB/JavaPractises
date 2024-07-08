@@ -8,15 +8,15 @@ public class _03_Example {
         // ekrana "Merhaba!" yazan bir Java programı yazınız.
         // Kullanıcı negatif bir sayı girdiğinde program sonlanmalıdır.
 
-        Scanner scanner = new Scanner(System.in);
-        int sayi;
+        Scanner input = new Scanner(System.in);
+        int sayi = 0;
         do {
-            System.out.println("Bir sayı girin (Negatif sayı girilince programdan çıkar): ");
-            sayi = scanner.nextInt();
+            System.out.println("Bir sayı giriniz (Negatif sayı girilince program sonlanır) : ");
+            sayi = input.nextInt();
             if (sayi >= 0) {
-                System.out.println("Merhaba!");
+                System.out.println("Merhaba");
             }
         } while (sayi >= 0);
-        System.out.println("Program sonlandırıldı.");
+        System.out.println("Program sonlandı.");
     }
 }

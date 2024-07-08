@@ -4,20 +4,17 @@ import java.util.Scanner;
 
 public class _02_Example {
     public static void main(String[] args) {
-        // Kullanıcıdan "quit" kelimesi girilene kadar kullanıcıdan metin girişi alan ve girilen metinleri
+        // Kullanıcıdan "quit" kelimesi girilene kadar metin girişi alan ve girilen metinleri
         // ekrana yazdıran bir Java programı yazın.
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Metin Giriniz : ");
-        String giris = scanner.nextLine();
-        while (!giris.equalsIgnoreCase("quit")) { //true
+        Scanner input = new Scanner(System.in);
+        System.out.println("Metin giriniz : ");
+        String giris = input.nextLine();
 
-            if (!giris.equalsIgnoreCase("quit")) {
-                System.out.println("Girilen metin : " + giris);
-            }
-            System.out.print("Metin girin (çıkmak için 'quit' yazın) : ");
-            giris = scanner.nextLine();
-
+        while (!giris.equalsIgnoreCase("quit")) {
+            System.out.println("Girilen metin : " + giris);
+            System.out.println("Metin giriniz (çıkmak için 'quit' yazın) : ");
+            giris = input.nextLine();
         }
         System.out.println("Program sonlandırıldı.");
     }
