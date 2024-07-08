@@ -1,8 +1,7 @@
-package arrays2D;
+package _17_Arrays2D;
 
 public class _06_Example {
     public static void main(String[] args) {
-
         /**
          Soru: 3 farklı dersin 10'ar random notunu içeren çok boyutlu bir Array oluşturup içini doldurunuz ve notları tek tek yazdırınız.
 

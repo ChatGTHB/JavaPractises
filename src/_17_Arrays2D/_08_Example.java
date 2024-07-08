@@ -1,4 +1,4 @@
-package arrays2D;
+package _17_Arrays2D;
 
 public class _08_Example {
 

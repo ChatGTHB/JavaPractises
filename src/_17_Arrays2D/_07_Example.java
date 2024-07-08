@@ -1,4 +1,4 @@
-package arrays2D;
+package _17_Arrays2D;
 
 import java.util.Arrays;
 
