@@ -22,7 +22,7 @@ public class _06_Example {
             System.out.println("2. Çıkarma(-) için 2");
             System.out.println("3. Çarpma (x) için 3");
             System.out.println("4. Bölme  (/) için 4");
-            System.out.println("5. Çıkış için 1-2-3-4 den farklı bir rakam");
+            System.out.print("5. Çıkış için 1-2-3-4 den farklı bir rakam : ");
 
             // Kullanıcının seçim yapmasını bekliyoruz.
             int secim = scannerInt();
@@ -33,11 +33,11 @@ public class _06_Example {
             }
 
             // Kullanıcıdan birinci sayıyı girmesini istiyoruz.
-            System.out.println("Birinci sayıyı giriniz : ");
+            System.out.print("Birinci sayıyı giriniz : ");
             double sayi1 = scannerDouble();
 
             // Kullanıcıdan ikinci sayıyı girmesini istiyoruz.
-            System.out.println("İkinci sayıyı giriniz : ");
+            System.out.print("İkinci sayıyı giriniz : ");
             double sayi2 = scannerDouble();
 
             // Seçime göre hesaplama yapıyoruz ve sonucu alıyoruz.
