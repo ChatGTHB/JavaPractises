@@ -1,0 +1,33 @@
+Methods
+
+Java'da metotlar, belirli bir görevi yerine getirmek için yazılmış kod bloklarıdır.
+Metotlar, kod tekrarını önlemek ve kodun daha okunabilir ve yönetilebilir olmasını sağlamak amacıyla kullanılır.
+Metotlar, parametre alabilir, bir değer döndürebilir veya sadece belirli işlemleri yapabilir.
+
+Metot Tanımı ve Kullanımı
+
+Metot tanımlanırken genellikle şu yapı kullanılır:
+
+accessModifier returnType methodName(parameterList) {
+    // method body
+}
+
+- accessModifier (Erişim Belirleyici)**: Metodun nereden erişilebileceğini belirtir (`public`vd.).
+- returnType (Dönüş Tipi)**: Metodun geri döndüreceği veri tipi (`int`, `double`, `void`, vs.).
+- methodName (Metot Adı)**: Metodun adı, metot çağrıldığında kullanılan isimdir.
+- parameterList (Parametre Listesi)**: Metodun alabileceği parametreler, parantezler içinde belirtilir.
+
+Örnek Metot
+
+public class Example {
+
+    // İki sayıyı toplayan basit bir metot
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        int result = add(5, 3);
+        System.out.println("Toplam: " + result);
+    }
+}
