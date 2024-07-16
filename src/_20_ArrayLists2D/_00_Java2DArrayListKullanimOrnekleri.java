@@ -2,7 +2,7 @@ package _20_ArrayLists2D;
 
 import java.util.ArrayList;
 
-public class Java_2D_ArrayList_Kullanim_Ornekleri {
+public class _00_Java2DArrayListKullanimOrnekleri {
     public static void main(String[] args) {
         // 2D ArrayList oluşturma
         // 2D ArrayList, ArrayList içinde ArrayList'ler bulundurur.

@@ -1,10 +1,10 @@
-package _19_ArrayLists;
+package _19_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Java_ArrayList_Kullanim_Ornekleri {
+public class _00_JavaArrayListKullanimOrnekleri {
     public static void main(String[] args) {
 
         // ArrayList Oluşturma:
