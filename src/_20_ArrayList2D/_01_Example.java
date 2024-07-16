@@ -1,4 +1,4 @@
-package _20_ArrayLists2D;
+package _20_ArrayList2D;
 
 import java.util.ArrayList;
 import java.util.Scanner;
