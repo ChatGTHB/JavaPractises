@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class _02_Example {
     public static void main(String[] args) {
-
         /**
          Soru:
          Bir metindeki her kelimenin kaç kez geçtiğini sayan ve

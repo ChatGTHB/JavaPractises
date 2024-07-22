@@ -5,13 +5,11 @@ import java.util.Scanner;
 
 public class _03_Example {
     public static void main(String[] args) {
-
         /**
          Soru:
          Kullanıcıdan alınan bir cümledeki harflerin sayısını hesaplayan bir Java programı yazın.
          Program, harfleri alfabetik olarak sıralamalı ve her harfin kaç kez tekrarlandığını yazdırmalıdır.
          */
-
 
         // Tarama nesnesi oluştur
         Scanner input = new Scanner(System.in);

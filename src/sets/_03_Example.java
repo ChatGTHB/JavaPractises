@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class _03_Example {
     public static void main(String[] args) {
-
         /**
          Soru:
          Bir LinkedHashSet oluşturun ve içine bazı öğrenci isimleri ekleyiniz.

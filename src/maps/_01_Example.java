@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class _01_Example {
     public static void main(String[] args) {
-
         /**
          * Talep: Restoran uygulaması geliştirme
          * Restoran, kullanıcıların menüden sipariş verebileceği bir uygulama geliştirmek istiyor.
