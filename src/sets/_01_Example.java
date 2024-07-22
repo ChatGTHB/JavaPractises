@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class _01_Example {
     public static void main(String[] args) {
         /**
-         Soru: Bir HashSet oluşturun ve içine kullanıcıdan alacağınız 5 adet String eleman ekleyin.
-         Sonra HashSet’in boyutunu, içindeki elemanları ve “Java” elemanının var olup olmadığını yazdırın.
+         * Soru: Bir HashSet oluşturun ve içine kullanıcıdan alacağınız 5 adet String eleman ekleyin.
+         * Sonra HashSet’in boyutunu, içindeki elemanları ve “Java” elemanının var olup olmadığını yazdırın.
          */
 
         // Bir Scanner nesnesi oluşturun
@@ -19,8 +19,13 @@ public class _01_Example {
         // Kullanıcıdan 5 adet String eleman alın
         for (int i = 0; i < 5; i++) {
             System.out.print("Lütfen String bir eleman giriniz: ");
-            String kelime = input.nextLine();
-            hashSet.add(kelime);
+            String kelime = input.nextLine().trim();
+            if (!kelime.isEmpty()) {
+                hashSet.add(kelime);
+            } else {
+                System.out.println("Boş girdi kabul edilmez, lütfen geçerli bir kelime giriniz.");
+                i--; // Boş girdi durumunda aynı adım tekrar edilsin
+            }
         }
 
         // HashSet'in boyutunu yazdırın

@@ -7,10 +7,10 @@ import java.util.Scanner;
 public class _03_Example {
     public static void main(String[] args) {
         /**
-         Soru:
-         Bir LinkedHashSet oluşturun ve içine bazı öğrenci isimleri ekleyiniz.
-         Daha sonra LinkedHashSet’i yineleyerek öğrenci isimlerini
-         eklendikleri sıraya göre yazdırınız.
+         * Soru:
+         * Bir LinkedHashSet oluşturun ve içine bazı öğrenci isimleri ekleyiniz.
+         * Daha sonra LinkedHashSet’i yineleyerek öğrenci isimlerini
+         * eklendikleri sıraya göre yazdırınız.
          */
 
         // Bir Scanner nesnesi oluşturun
@@ -20,7 +20,7 @@ public class _03_Example {
         LinkedHashSet<String> ogrenciler = new LinkedHashSet<>();
 
         // Kaç öğrenci ekleneceğini kullanıcıdan alın
-        System.out.println("Kaç öğrenci eklenecek: ");
+        System.out.print("Kaç öğrenci eklenecek: ");
         int ogrenciSayisi = scanner.nextInt();
 
         /**
@@ -40,20 +40,31 @@ public class _03_Example {
          * Bu, nextInt()'dan sonra kalan yeni satır karakterini okuyacak ve bir sonraki satıra geçecektir.
          */
 
-       scanner.nextLine(); // Yeni satır karakterini oku ve atla
+        // nextInt()'dan sonra kalan yeni satır karakterini okuyun
+        scanner.nextLine();
 
         // Her öğrenci ismini kullanıcıdan alın ve LinkedHashSet'e ekleyin
         for (int i = 1; i <= ogrenciSayisi; i++) {
-            System.out.println(i + ". ogrencinin ismini giriniz: ");
+            System.out.print(i + ". öğrencinin ismini giriniz: ");
             String isim = scanner.nextLine();
             ogrenciler.add(isim);
         }
 
-        // Bir yineleyici oluşturun ve LinkedHashSet'i yineleyin
+        // LinkedHashSet'i yineleyerek öğrenci isimlerini eklendikleri sıraya göre yazdırın
+        // 1. Yöntem: Iterator kullanarak LinkedHashSet'i yineleme
+        System.out.println("Öğrenci isimleri eklendikleri sıraya göre (Iterator):");
         Iterator<String> iterator = ogrenciler.iterator();
         while (iterator.hasNext()) {
-            // Her öğrenci ismini yazdırın
             System.out.println(iterator.next());
         }
+
+        // 2. Yöntem: For-each döngüsü kullanarak LinkedHashSet'i yineleme
+        System.out.println("Öğrenci isimleri eklendikleri sıraya göre (for-each):");
+        for (String isim : ogrenciler) {
+            System.out.println(isim);
+        }
+
+        // Scanner nesnesini kapatın
+        scanner.close();
     }
 }
