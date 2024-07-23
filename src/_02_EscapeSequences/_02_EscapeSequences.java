@@ -1,6 +1,6 @@
 package _02_EscapeSequences;
 
-public class _02_EscapeCharacters {
+public class _02_EscapeSequences {
 
     public static void main(String[] args) {
 

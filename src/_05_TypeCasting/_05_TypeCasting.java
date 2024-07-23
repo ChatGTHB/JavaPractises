@@ -1,6 +1,6 @@
 package _05_TypeCasting;
 
-public class _05_TypeConversions {
+public class _05_TypeCasting {
     public static void main(String[] args) {
 
 //        Soru 1:
