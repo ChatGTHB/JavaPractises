@@ -1,0 +1,15 @@
+
+Java Class ve Metotları Kullanarak Kişi Bilgileri Yönetimi
+
+Aşağıdaki gereksinimleri karşılayan bir Java programı yazın:
+
+1.   Kişi Bilgileri:
+   - Bir kişinin adını, yaşını ve hobilerini saklayan bir `Person` adlı sınıf oluşturun.
+   - Bu sınıfın içinde, kişiyi tanımlamak için bir metot (`setPersonInfo`) ve
+     bilgileri ekrana yazdırmak için bir metot (`displayInfo`) bulunmalıdır.
+
+2.   Program Akışı:
+   - Kullanıcıdan sürekli olarak kişi bilgileri (ad, yaş, hobiler) alın ve
+     bu bilgileri bir `Person` nesnesi kullanarak saklayın.
+   - Kullanıcı devam etmek istemediğinde programı sonlandırın ve
+     girilen tüm kişilerin bilgilerini ekrana yazdırın.

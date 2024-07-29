@@ -1,0 +1,12 @@
+
+Java Class ve Metotları Kullanarak Basit Kişi Bilgileri Yönetimi
+
+1. Bir `Person` sınıfı oluşturun.
+2. Bu sınıfın içinde `name` ve `age` adında değişkenler olsun.
+3. Bu değişkenlere doğrudan erişerek değer atayın.
+4. `Person` sınıfında bir metot oluşturun (`displayInfo`) ve
+   bu metot kişinin adını ve yaşını ekrana yazdırsın.
+5. `Main` sınıfında, bir `Person` nesnesi oluşturun ve
+   bu nesneye ad ve yaş değerlerini atayın.
+6. `displayInfo` metodunu çağırarak kişinin bilgilerini ekrana yazdırın.
+
