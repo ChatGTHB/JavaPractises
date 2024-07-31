@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _01_Example {
     public static void main(String[] args) {
         /**
-         Soru:
+         Task:
          Kullanıcıdan bir ayın numarasını (1-12 arası) alan
          ve bu numaraya karşılık gelen ayın adını yazdıran
          bir Java programı yazın.

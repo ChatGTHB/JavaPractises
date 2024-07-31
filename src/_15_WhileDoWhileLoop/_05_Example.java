@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _05_Example {
     public static void main(String[] args) {
-        // Soru : Kullanıcın gireceği bir sayının kaç basamaklı olduğunu bulunuz
+        // Task : Kullanıcın gireceği bir sayının kaç basamaklı olduğunu bulunuz
 
         // 163460  6 basamaklı 1 2 3 4 5 6 7 8 9 0 1 2 3
 

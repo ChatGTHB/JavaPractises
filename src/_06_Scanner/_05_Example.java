@@ -7,7 +7,7 @@ public class _05_Example {
     public static void main(String[] args) {
 
         /**
-         **5. Soru: Doğum yılı girilen kişinin yaşını hesaplayan bir program yazınız**
+         **5. Task: Doğum yılı girilen kişinin yaşını hesaplayan bir program yazınız**
          * Not= İçinde bulunulan yıl kullanıcıdan alınacak.
          */
 

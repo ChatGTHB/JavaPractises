@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _01_Example {
 
-    // **1. Soru: Kullanıcıdan bir isim alarak ekrana ekrana
+    // **1. Task: Kullanıcıdan bir isim alarak ekrana ekrana
     // "Merhaba, {ad}!" şeklinde bir çıktı yazdıran bir program yazın.**
 
     public static void main(String[] args) {

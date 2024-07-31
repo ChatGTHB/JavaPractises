@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _08_Example {
     public static void main(String[] args) {
-        // Soru Kullanıcından 10 sayı isteyiniz, eğer sonra girilen önce girilenden büyük ise döngü sonlansın.
+        // Task Kullanıcından 10 sayı isteyiniz, eğer sonra girilen önce girilenden büyük ise döngü sonlansın.
 
         Scanner scanner = new Scanner(System.in);
 

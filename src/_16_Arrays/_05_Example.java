@@ -2,7 +2,7 @@ package _16_Arrays;
 
 public class _05_Example {
     public static void main(String[] args) {
-        // Soru: Bir integer dizisindeki her elemanın frekansını (kaç kere tekrarlandığını) bulan bir program yazın.
+        // Task: Bir integer dizisindeki her elemanın frekansını (kaç kere tekrarlandığını) bulan bir program yazın.
 
         // Örnek bir dizi tanımlayalım
         int[] numbers = {3, 5, 3, 2, 8, 5, 6, 3, 2};

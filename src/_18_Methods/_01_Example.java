@@ -3,7 +3,7 @@ package _18_Methods;
 public class _01_Example {
 
     /*
-     * Soru 1: İki sayının farkını hesaplayan bir metot yazın.
+     * Task 1: İki sayının farkını hesaplayan bir metot yazın.
      */
 
     // İki sayının farkını hesaplayan metot

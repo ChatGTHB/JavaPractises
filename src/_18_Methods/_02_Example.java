@@ -3,7 +3,7 @@ package _18_Methods;
 public class _02_Example {
 
     /*
-     * Soru 2: Bir sayının faktöriyelini hesaplayan bir metot yazın.
+     * Task 2: Bir sayının faktöriyelini hesaplayan bir metot yazın.
      * (Faktöriyel: Bir sayının 1'den başlayarak kendisine kadar olan tüm sayıların çarpımı)
      */
 

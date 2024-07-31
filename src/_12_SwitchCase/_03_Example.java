@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _03_Example {
     public static void main(String[] args) {
         /**
-         Soru:
+         Task:
          Kullanıcıdan bir harf alan ve bu harfin Türk alfabesine göre
          bir sesli harf mi yoksa sessiz harf mi olduğunu belirten
          bir Java programı yazın.

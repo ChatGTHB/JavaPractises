@@ -2,7 +2,7 @@ package _16_Arrays;
 
 public class _02_Example {
     public static void main(String[] args) {
-        // Soru: Bir integer dizisindeki elemanların toplamını ve ortalamasını hesaplayan bir program yazın.
+        // Task: Bir integer dizisindeki elemanların toplamını ve ortalamasını hesaplayan bir program yazın.
 
         // Örnek bir dizi tanımlayalım
         int[] numbers = {10, 20, 30, 40, 50};

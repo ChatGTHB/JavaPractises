@@ -7,7 +7,7 @@ public class _06_Example {
     public static void main(String[] args) {
         
         /**
-         **6. Soru: Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını ve
+         **6. Task: Java ile kullanıcıdan alınan para değerinin KDV'li fiyatını ve
          KDV tutarını hesaplayıp ekrana bastıran programı yazın.
          (Not : KDV tutarını 18% olarak alın)**
          */

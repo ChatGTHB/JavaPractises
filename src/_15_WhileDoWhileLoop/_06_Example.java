@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _06_Example {
     public static void main(String[] args) {
-        // Soru Kullanıcnın gireceği bir sayının basamaklarına göre tersi olan sayıyı bulunuz
+        // Task Kullanıcnın gireceği bir sayının basamaklarına göre tersi olan sayıyı bulunuz
 
         Scanner scanner = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _02_Example {
     public static void main(String[] args) {
         /**
-         Soru:
+         Task:
          Kullanıcıdan bir gün adı alan ve
          bu günün hafta içi mi yoksa hafta sonu mu olduğunu belirten
          bir Java programı yazın.

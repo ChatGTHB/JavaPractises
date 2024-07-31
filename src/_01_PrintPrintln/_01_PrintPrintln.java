@@ -6,14 +6,14 @@ public class _01_PrintPrintln {
 
         // 1. Print ve Println
 
-        // Soru 1:
+        // Task 1:
         // Konsola "Merhaba Dünya" yazdırın.
 
         System.out.println("Merhaba Dünya");
         System.out.print("Merhaba Dünya");
 
 
-        //Soru 2:
+        //Task 2:
         //Konsola "Merhaba" ve "Dünya" kelimelerini aynı satırda yazdırın.
 
         // "Merhaba" kelimesini konsola yazdırır ve satır başını yapmaz.
@@ -22,7 +22,7 @@ public class _01_PrintPrintln {
         System.out.println("Dünya");
 
 
-        // Soru 3:
+        // Task 3:
         // Konsola "Merhaba" ve "Dünya" kelimelerini farklı satırlarda yazdırın.
 
         // "Merhaba" kelimesini konsola yazdırır ve satır başını yapar.

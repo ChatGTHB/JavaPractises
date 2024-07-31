@@ -3,7 +3,7 @@ package _18_Methods;
 public class _03_Example {
 
     /*
-     * Soru 3: Bir sayının çift olup olmadığını kontrol eden bir metot yazın.
+     * Task 3: Bir sayının çift olup olmadığını kontrol eden bir metot yazın.
      * (Çift sayı: 2 ile tam bölünebilen sayı)
      */
 

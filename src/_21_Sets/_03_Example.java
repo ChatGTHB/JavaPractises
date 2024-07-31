@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class _03_Example {
     public static void main(String[] args) {
         /**
-         * Soru:
+         * Task:
          * Bir LinkedHashSet oluşturun ve içine bazı öğrenci isimleri ekleyiniz.
          * Daha sonra LinkedHashSet’i yineleyerek öğrenci isimlerini
          * eklendikleri sıraya göre yazdırınız.

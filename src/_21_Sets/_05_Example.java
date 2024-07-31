@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class _05_Example {
     public static void main(String[] args) {
         /**
-         * Soru: Kullanıcıdan iki farklı kelime listesi alın ve bu iki kelime listesinin kesişiminde
+         * Task: Kullanıcıdan iki farklı kelime listesi alın ve bu iki kelime listesinin kesişiminde
          * bulunan (ortak) kelimeleri bir Set kullanarak bulun.
          */
 

@@ -3,7 +3,7 @@ package _05_TypeCasting;
 public class _05_TypeCasting {
     public static void main(String[] args) {
 
-//        Soru 1:
+//        Task 1:
 //        Bir ondalık sayı (double) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
 
         // Bir ondalık sayı (double) tanımlayın.
@@ -17,7 +17,7 @@ public class _05_TypeCasting {
         System.out.println("tamSayi = " + tamSayi);
 
 
-//        Soru 2:
+//        Task 2:
 //        Bir tam sayı (int) tanımlayın ve bu değeri ondalık sayı (double) veri tipine dönüştürüp ekrana yazdırın.
 
         // Bir tam sayı (int) tanımlayın.
@@ -31,7 +31,7 @@ public class _05_TypeCasting {
         System.out.println("ondalikSayi2 = " + ondalikSayi2);
 
 
-//        Soru 3:
+//        Task 3:
 //        Bir ondalık sayı (float) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
 
         // Bir ondalık sayı (float) tanımlayın
@@ -45,7 +45,7 @@ public class _05_TypeCasting {
         System.out.println("intSayi3 = " + intSayi3);
 
 
-//        Soru 4:
+//        Task 4:
 //        Bir metin (String) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
 
 

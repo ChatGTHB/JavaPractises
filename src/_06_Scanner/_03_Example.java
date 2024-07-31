@@ -7,7 +7,7 @@ public class _03_Example {
     public static void main(String[] args) {
 
         /**
-         // **3. Soru: Kullanıcıdan bir tamsayı alarak,
+         // **3. Task: Kullanıcıdan bir tamsayı alarak,
          sayının karesini ekrana yazdıran bir program yazın.**
          */
 

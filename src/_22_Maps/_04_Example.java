@@ -9,7 +9,7 @@ import java.util.Set;
 public class _04_Example {
     public static void main(String[] args) {
         /**
-         * Soru:
+         * Task:
          * Kullanıcıdan bir dizi kelime alın ve bu kelimeleri tekrar edenleri çıkararak saklayın.
          * Ayrıca, her kelimenin kaç kez tekrarlandığını hesaplayarak sonucu yazdırın.
          * Program aşağıdaki adımları gerçekleştirmelidir:

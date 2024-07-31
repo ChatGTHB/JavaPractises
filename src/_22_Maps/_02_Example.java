@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class _02_Example {
     public static void main(String[] args) {
         /**
-         * Soru:
+         * Task:
          * Bir metindeki her kelimenin kaç kez geçtiğini sayan ve
          * sonucu bir HashMap’te saklayan bir Java programı yazınız.
          * Programınız, metni kullanıcıdan alacak ve

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _04_Example {
     public static void main(String[] args) {
-        // Soru: Bir kişinin cinsiyetini belirleyen bir Java programı yazın.
+        // Task: Bir kişinin cinsiyetini belirleyen bir Java programı yazın.
         // Program, kullanıcıdan “E” veya “K” harflerinden birini girmesini istemeli
         // ve ekrana “Erkek” veya “Kadın” mesajını yazdırmalıdır.
 

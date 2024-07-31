@@ -3,7 +3,7 @@ package _17_Arrays2D;
 public class _06_Example {
     public static void main(String[] args) {
         /**
-         Soru: 3 farklı dersin 10'ar random notunu içeren çok boyutlu bir Array oluşturup içini doldurunuz ve notları tek tek yazdırınız.
+         Task: 3 farklı dersin 10'ar random notunu içeren çok boyutlu bir Array oluşturup içini doldurunuz ve notları tek tek yazdırınız.
 
          İpuçları:
          1. Tüm ders notlarını saklamak için bir 2 boyutlu dizi oluşturun. Bu dizi 3 satır ve 10 sütundan oluşmalıdır.

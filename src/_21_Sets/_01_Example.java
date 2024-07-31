@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class _01_Example {
     public static void main(String[] args) {
         /**
-         * Soru: Bir HashSet oluşturun ve içine kullanıcıdan alacağınız 5 adet String eleman ekleyin.
+         * Task: Bir HashSet oluşturun ve içine kullanıcıdan alacağınız 5 adet String eleman ekleyin.
          * Sonra HashSet’in boyutunu, içindeki elemanları ve “Java” elemanının var olup olmadığını yazdırın.
          */
 

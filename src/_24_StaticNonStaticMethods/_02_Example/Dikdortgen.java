@@ -1,4 +1,4 @@
-package staticNonStaticMethods.ornek02;
+package _24_StaticNonStaticMethods._02_Example;
 
 public class Dikdortgen {
 

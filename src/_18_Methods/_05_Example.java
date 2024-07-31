@@ -3,7 +3,7 @@ package _18_Methods;
 public class _05_Example {
 
     /*
-     * Soru 5: Bir stringin palindrom olup olmadığını kontrol eden bir metot yazın.
+     * Task 5: Bir stringin palindrom olup olmadığını kontrol eden bir metot yazın.
      * (Palindrom: İleri ve geri okunduğunda aynı olan kelime)
      */
 

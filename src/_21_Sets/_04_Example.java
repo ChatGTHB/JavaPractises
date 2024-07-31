@@ -7,7 +7,7 @@ import java.util.Set;
 public class _04_Example {
     public static void main(String[] args) {
         /**
-         Soru: Bir dizi içindeki yinelenen sayıları bulup
+         Task: Bir dizi içindeki yinelenen sayıları bulup
          bir Set kullanarak geri döndüren bir Java metodu yazınız.
          Dizinin elemanlarını kullanıcıdan alınız.
          */

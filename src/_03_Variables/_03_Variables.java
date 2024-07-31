@@ -3,7 +3,7 @@ package _03_Variables;
 public class _03_Variables {
     public static void main(String[] args) {
 
-        // Soru 1:
+        // Task 1:
         // Bir değişken tanımlayın ve değeri 10 olan bu değişkeni 5 ile çarpıp sonucu ekrana yazdırın.
 
         // Bir tam sayı değişkeni tanımlayın ve değeri 10 olarak atayın.
@@ -21,7 +21,7 @@ public class _03_Variables {
         // Çıktı: Sonuç: 50
 
 
-//        Soru 2:
+//        Task 2:
 //        Bir ondalık sayı değişkeni tanımlayın ve değeri 3.14 olan bu değişkenin karesini ekrana yazdırın.
 
         // Bir ondalık sayı (double) değişkeni tanımlayın ve değeri 3.14 olarak atayın.
@@ -35,7 +35,7 @@ public class _03_Variables {
         System.out.println("piKare = " + piKare);
 
 
-        //  Soru 3:
+        //  Task 3:
         // Bir metin değişkeni tanımlayın ve değeri "Java" olan bu metnin uzunluğunu ekrana yazdırın.
 
         // Bir String değişkeni tanımlayın ve değeri "Java" olarak atayın.
@@ -48,7 +48,7 @@ public class _03_Variables {
         System.out.println("uzunluk = " + uzunluk);
 
 
-//        Soru 4:
+//        Task 4:
 //        Bir boolean değişkeni tanımlayın ve değeri true olan bu değişkeni tersine çevirip ekrana yazdırın.
 
         // Bir boolean değişkeni tanımlayın ve değeri true olarak atayın.

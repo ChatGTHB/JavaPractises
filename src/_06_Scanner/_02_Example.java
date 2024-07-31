@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _02_Example {
     /**
-     * *2. Soru: Kullanıcıdan adını ve yaşını alarak ekrana
+     * *2. Task: Kullanıcıdan adını ve yaşını alarak ekrana
      * "Merhaba, {ad}! {yaş} yaşındasın." şeklinde bir çıktı yazdıran bir program yazın.**
      */
 

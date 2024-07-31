@@ -7,7 +7,7 @@ import java.util.TreeMap;
 public class _03_Example {
     public static void main(String[] args) {
         /**
-         * Soru:
+         * Task:
          * Kullanıcıdan alınan bir cümledeki harflerin sayısını hesaplayan bir Java programı yazın.
          * Program, harfleri alfabetik olarak sıralamalı ve her harfin kaç kez tekrarlandığını yazdırmalıdır.
          */

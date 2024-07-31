@@ -7,7 +7,7 @@ public class _04_Example {
     public static void main(String[] args) {
 
         /**
-         Soru: Kullanıcıdan iki tamsayı alarak,
+         Task: Kullanıcıdan iki tamsayı alarak,
          bu sayıların toplamını, farkını ve çarpımını
          ekrana yazdıran bir program yazın.
          */

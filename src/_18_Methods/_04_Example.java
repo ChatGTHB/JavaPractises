@@ -3,7 +3,7 @@ package _18_Methods;
 public class _04_Example {
 
     /*
-     * Soru 4: Bir dizideki en büyük değeri bulan bir metot yazın.
+     * Task 4: Bir dizideki en büyük değeri bulan bir metot yazın.
      */
 
     // Bir dizideki en büyük değeri bulan metot

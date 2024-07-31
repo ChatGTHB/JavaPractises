@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _06_Example {
 
     /*
-     * Soru: Bir hesap makinesi uygulaması yazın. Kullanıcıya toplama, çıkarma, çarpma ve bölme işlemleri için seçenekler sunun.
+     * Task: Bir hesap makinesi uygulaması yazın. Kullanıcıya toplama, çıkarma, çarpma ve bölme işlemleri için seçenekler sunun.
      * Kullanıcı, işlem seçtikten sonra iki sayı girecek ve sonucu hesaplayacak.
      *
      * Metot kullanarak her bir işlemi gerçekleştirin (toplama, çıkarma, çarpma, bölme).

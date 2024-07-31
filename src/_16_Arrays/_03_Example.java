@@ -2,7 +2,7 @@ package _16_Arrays;
 
 public class _03_Example {
     public static void main(String[] args) {
-        // Soru: Bir integer dizisindeki elemanları ters çeviren bir program yazın.
+        // Task: Bir integer dizisindeki elemanları ters çeviren bir program yazın.
 
         // Örnek bir dizi tanımlayalım
         int[] numbers = {1, 2, 3, 4, 5};

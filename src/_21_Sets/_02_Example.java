@@ -5,7 +5,7 @@ import java.util.TreeSet;
 public class _02_Example {
     public static void main(String[] args) {
         /**
-         Soru: Bir TreeSet oluşturun ve içine 0 ila 100 arası 10 adet rastgele sayı ekleyin.
+         Task: Bir TreeSet oluşturun ve içine 0 ila 100 arası 10 adet rastgele sayı ekleyin.
          Sonra TreeSet’in ilk, son, en küçük ve en büyük elemanlarını yazdırın.
          Ayrıca, TreeSet’in 20’den küçük ve 80’den büyük elemanlarını içeren bir alt kümesini yazdırın.
          */
