@@ -10,6 +10,20 @@ Metotlar, static ve non-static (örnek) olmak üzere iki ana kategoriye ayrılab
 - Örneğin, bir Matematik sınıfı için bir static toplama metodu oluşturduğumuzda,
   bu metodu `Matematik.topla()` şeklinde sınıf adı ile çağırabiliriz.
 
+   Static Metot Örneği
+
+  public class Matematik {
+      // Static metot
+      public static int topla(int a, int b) {
+          return a + b;
+      }
+
+      public static void main(String[] args) {
+          int sonuc = Matematik.topla(5, 3);
+          System.out.println("Toplam: " + sonuc); // Toplam: 8
+      }
+  }
+
   Non-Static (Örnek) Metotlar:
 - Nesne bazlıdır ve bir nesne oluşturulduktan sonra çağrılabilirler.
 - Sınıfın örnek değişkenlerine erişebilirler ve her nesne için farklı davranışlar sergileyebilirler.
@@ -17,45 +31,35 @@ Metotlar, static ve non-static (örnek) olmak üzere iki ana kategoriye ayrılab
 - Örneğin, bir Araba sınıfı için bir non-static hızlanma metodu oluşturduğumuzda,
   bu metodu Araba nesnesi üzerinden çağırabiliriz.
 
+  Non-Static Metot Örneği
+
+  public class Araba {
+      private int hiz;
+
+      // Constructor
+      public Araba() {
+          hiz = 0;
+      }
+
+      // Non-static metot
+      public void hizlan(int artis) {
+          hiz += artis;
+          System.out.println("Yeni hız: " + hiz);
+      }
+
+      public static void main(String[] args) {
+          Araba araba = new Araba();
+          araba.hizlan(10); // Yeni hız: 10
+          araba.hizlan(20); // Yeni hız: 30
+      }
+  }
+
 Java'da static ve non-static metotlar arasındaki farklar önemlidir ve doğru kullanımı,
 sınıfın davranışlarını belirlemede önemli bir rol oynar.
 
 
-  Static Metot Örneği
-
-public class Matematik {
-    // Static metot
-    public static int topla(int a, int b) {
-        return a + b;
-    }
-
-    public static void main(String[] args) {
-        int sonuc = Matematik.topla(5, 3);
-        System.out.println("Toplam: " + sonuc); // Toplam: 8
-    }
-}
 
 
-  Non-Static Metot Örneği
 
-public class Araba {
-    private int hiz;
 
-    // Constructor
-    public Araba() {
-        hiz = 0;
-    }
-
-    // Non-static metot
-    public void hizlan(int artis) {
-        hiz += artis;
-        System.out.println("Yeni hız: " + hiz);
-    }
-
-    public static void main(String[] args) {
-        Araba araba = new Araba();
-        araba.hizlan(10); // Yeni hız: 10
-        araba.hizlan(20); // Yeni hız: 30
-    }
-}
 
