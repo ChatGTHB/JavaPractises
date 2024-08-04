@@ -8,6 +8,7 @@ public class Car {
 
     // Constructor: Aracın bilgilerini ayarlamak için kullanılır
     public Car(String make, String model, int year) {
+        // Constructor'a geçirilen marka, model ve yıl parametreleri sınıfın özelliklerine atanır
         this.make = make; // Marka bilgisi ayarlanır
         this.model = model; // Model bilgisi ayarlanır
         this.year = year; // Üretim yılı bilgisi ayarlanır

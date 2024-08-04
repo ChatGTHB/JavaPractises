@@ -1,26 +1,29 @@
 package _25_Constructor._04_Example;
 
-public class Person {
-    // Kişinin adı, yaşı ve hobileri için değişkenler tanımlanıyor
-    private String name;
-    private int age;
-    private String[] hobbies;
+import java.util.ArrayList;
+import java.util.List;
 
-    // Kişi bilgilerini ayarlamak için setPersonInfo metodu
-    public void setPersonInfo(String name, int age, String[] hobbies) {
-        this.name = name; // Ad bilgisi ayarlanır
-        this.age = age; // Yaş bilgisi ayarlanır
-        this.hobbies = hobbies; // Hobiler bilgisi ayarlanır
+public class Person {
+    // Özellikler (Attributes)
+    private String name;       // Kişinin adı
+    private int age;           // Kişinin yaşı
+    private List<String> hobbies; // Kişinin hobileri
+
+    // Constructor - Kişi nesnesi oluşturulurken gerekli bilgileri alır ve atar
+    public Person(String name, int age, List<String> hobbies) {
+        this.name = name; // Kişinin adı atanır
+        this.age = age; // Kişinin yaşı atanır
+        // Hobiler null değilse atanır, null ise boş bir liste oluşturulur
+        this.hobbies = hobbies != null ? hobbies : new ArrayList<>();
     }
 
-    // Kişi bilgilerini ekrana yazdırmak için displayInfo metodu
+    // Kişi bilgilerini ekrana yazdıran metod
     public void displayInfo() {
-        System.out.println("Kişi Adı : " + this.name); // Ad bilgisi yazdırılır
-        System.out.println("Kişi Yaşı : " + this.age); // Yaş bilgisi yazdırılır
-        System.out.print("Hobileri : ");
-        for (String hobby : this.hobbies) { // Hobiler yazdırılır
-            System.out.print(hobby.trim() + " "); // Her hobi ekrana yazdırılır
-        }
-        System.out.println();
+        // Kişinin adı ekrana yazdırılır
+        System.out.println("Ad: " + this.name);
+        // Kişinin yaşı ekrana yazdırılır
+        System.out.println("Yaş: " + this.age);
+        // Kişinin hobileri ekrana yazdırılır, hobiler virgülle ayrılarak birleştirilir
+        System.out.println("Hobiler: " + String.join(", ", this.hobbies));
     }
 }

@@ -1,6 +1,6 @@
 package _25_Constructor._03_Example;
 
-public class Main {
+public class TestCar {
     public static void main(String[] args) {
         // 1. Yöntem: displayInfo metodu ile yazdırma
         System.out.println("1. Yöntem: displayInfo metodu ile yazdırma");
