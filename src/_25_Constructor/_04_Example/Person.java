@@ -1,4 +1,4 @@
-package _25_Constructor._01_Example;
+package _25_Constructor._04_Example;
 
 public class Person {
     // Kişinin adı, yaşı ve hobileri için değişkenler tanımlanıyor

@@ -1,4 +1,4 @@
-package _25_Constructor._00_Example;
+package _25_Constructor._03_Example;
 
 public class Car {
     // Aracın markası, modeli ve üretim yılı için değişkenler tanımlanıyor

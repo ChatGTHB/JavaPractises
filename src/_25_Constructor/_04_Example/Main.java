@@ -1,4 +1,4 @@
-package _25_Constructor._01_Example;
+package _25_Constructor._04_Example;
 
 import java.util.ArrayList;
 import java.util.Scanner;
