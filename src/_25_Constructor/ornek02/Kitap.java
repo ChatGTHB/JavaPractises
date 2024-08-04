@@ -1,4 +1,4 @@
-package constructor.ornek02;
+package _25_Constructor.ornek02;
 
 public class Kitap {
 
@@ -7,7 +7,7 @@ public class Kitap {
     private final int sayfaSayisi;
 
 
-    // İsim ve yazar bilgileri zorunlu olduğundan, ilk constructor bunları alır.
+    // İsim ve yazar bilgileri zorunlu olduğundan, ilk _25_Constructor bunları alır.
     public Kitap(String isim, String yazar) {
 
         // Eğer isim veya yazar değeri null veya boş bir değer ise "Belirtilmemiş" değeri atanır.
@@ -29,7 +29,7 @@ public class Kitap {
 
 
     // İsim, yazar ve sayfa sayısı bilgileri alınabilir olduğunda,
-    // ikinci constructor bunları alır.
+    // ikinci _25_Constructor bunları alır.
     public Kitap(String isim, String yazar, int sayfaSayisi) {
 
         // Eğer isim veya yazar değeri null veya boş bir değer ise "Belirtilmemiş" değeri atanır.
@@ -60,11 +60,11 @@ public class Kitap {
      Bu sınıf, isim, yazar ve sayfaSayisi özelliklerine sahiptir.
      Bu özellikler private olarak tanımlanmıştır.
 
-     Kitap sınıfının ilk constructor'ı, isim ve yazar değerlerini alır.
+     Kitap sınıfının ilk _25_Constructor'ı, isim ve yazar değerlerini alır.
      Eğer isim veya yazar değeri null veya boş bir değer ise, "Belirtilmemiş" değeri atanır.
      Aksi halde, verilen değerler atanır. sayfaSayisi değeri varsayılan olarak 0 olarak atanır.
 
-     İkinci constructor ise isim, yazar ve sayfaSayisi değerlerini alır.
+     İkinci _25_Constructor ise isim, yazar ve sayfaSayisi değerlerini alır.
      Yine, isim veya yazar değeri null veya boş bir değer ise, "Belirtilmemiş" değeri atanır.
      Aksi halde, verilen değerler atanır.
 

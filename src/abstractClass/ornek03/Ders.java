@@ -25,7 +25,7 @@ class Ders {
 /**
  * Ders adında bir sınıf da tanımlanmıştır.
  * Bu sınıf, ders adı ve kredi saati gibi özellikleri içermektedir.
- * Ders sınıfı, iki özellik ve bir constructor metod içermektedir.
+ * Ders sınıfı, iki özellik ve bir _25_Constructor metod içermektedir.
  * Ayrıca getAd ve getKredi adında iki getter metodu da tanımlanmıştır.
  * Bu metotlar, ders adı ve kredi saati bilgilerini döndürmektedir.
  */

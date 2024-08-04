@@ -5,7 +5,7 @@ class Calisan {
     private final String ad;
     private final double maas;
 
-    // Çalışan sınıfının yapıcı metodu (constructor)
+    // Çalışan sınıfının yapıcı metodu (_25_Constructor)
     public Calisan(String ad, double maas) {
         this.ad = ad;
         this.maas = maas;

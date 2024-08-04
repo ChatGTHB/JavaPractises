@@ -12,7 +12,7 @@ Abstract sınıfın adı Ogrenci olsun ve aşağıdaki özellikleri ve metodlar�
 - ad (String) ve soyad (String) adında iki özellik (instance variable)
 - ogrenciNo (int) adında bir özellik (instance variable)
 - dersler (ArrayList) adında bir özellik (instance variable)
-- Ogrenci adında parametre alan bir constructor, ad ve soyadı alarak ad ve soyad özelliklerini set etsin
+- Ogrenci adında parametre alan bir _25_Constructor, ad ve soyadı alarak ad ve soyad özelliklerini set etsin
 - dersEkle adında bir metod, bir dersi alarak bu dersi dersler listesine eklesin
 - dersSil adında bir metod, bir dersi alarak bu dersi dersler listesinden silsin
 - bilgileriYazdir adında bir abstract metod, öğrenci bilgilerini ekrana yazdırsın

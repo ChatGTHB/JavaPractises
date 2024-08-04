@@ -1,4 +1,4 @@
-package constructor.ornek02;
+package _25_Constructor.ornek02;
 
 public class Ornek02 {
 

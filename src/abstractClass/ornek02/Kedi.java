@@ -5,7 +5,7 @@ public class Kedi extends Hayvan{
 // Tüy rengi adında bir özellik tanımladık.
     private final String tuyRengi;
 
-    // Kedi sınıfının yapıcı metodu (constructor) oluşturuldu.
+    // Kedi sınıfının yapıcı metodu (_25_Constructor) oluşturuldu.
     // Kedi nesnesi oluşturulurken tüy rengi belirtilmelidir
     public Kedi(String tuyRengi) {
         this.tuyRengi = tuyRengi;

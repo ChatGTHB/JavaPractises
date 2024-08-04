@@ -1,4 +1,4 @@
-package _23_ClassMethod._01_Example;
+package _23_ClassMethods._01_Example;
 
 public class Main {
     public static void main(String[] args) {

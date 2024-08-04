@@ -1,4 +1,4 @@
-package constructor.ornek01;
+package _25_Constructor.ornek01;
 
 public class Ogrenci {
 
@@ -36,8 +36,8 @@ public class Ogrenci {
     /**
      Yukarıdaki kodda, Ogrenci sınıfı oluşturulmuştur.
      ad, soyad ve yas özellikleri private olarak tanımlanmıştır.
-     İlk constructor, ad, soyad ve yas değerlerini alarak bir öğrenci nesnesi oluşturur.
-     İkinci constructor ise ad ve soyad değerlerini alarak bir öğrenci nesnesi oluşturur ve
+     İlk _25_Constructor, ad, soyad ve yas değerlerini alarak bir öğrenci nesnesi oluşturur.
+     İkinci _25_Constructor ise ad ve soyad değerlerini alarak bir öğrenci nesnesi oluşturur ve
      yaş değerini varsayılan olarak 18 olarak atar.
      bilgileriGoster() metodu, öğrencinin adını, soyadını ve yaşını ekrana yazdırır.
      */

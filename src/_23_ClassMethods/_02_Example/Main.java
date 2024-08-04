@@ -1,4 +1,4 @@
-package _23_ClassMethod._02_Example;
+package _23_ClassMethods._02_Example;
 
 import java.util.ArrayList;
 import java.util.Scanner;

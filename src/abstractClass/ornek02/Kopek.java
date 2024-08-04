@@ -4,7 +4,7 @@ public class Kopek extends Hayvan{
     // Cins adında bir özellik tanımladık.
     private final String cins;
 
-    // Köpek sınıfının yapıcı metodu (constructor) oluşturuldu.
+    // Köpek sınıfının yapıcı metodu (_25_Constructor) oluşturuldu.
     // Köpek nesnesi oluşturulurken cinsi belirtilmelidir
     public Kopek(String cins) {
         this.cins = cins;

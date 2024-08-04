@@ -1,4 +1,4 @@
-package constructor.ornek01;
+package _25_Constructor.ornek01;
 
 public class Ornek01 {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ package inheritance.ornek01;
 public class Kopek extends Hayvan {
     String tasma;
 
-    // Köpek sınıfının yapıcı metodu (constructor)
+    // Köpek sınıfının yapıcı metodu (_25_Constructor)
     public Kopek(String renk, int yas, String tasma) {
         super(renk, yas);
         this.tasma = tasma;

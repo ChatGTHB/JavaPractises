@@ -4,7 +4,7 @@ package inheritance.ornek02;
 
 class Muhasebeci extends Calisan {
 
-    // Muhasebeci sınıfının yapıcı metodu (constructor)
+    // Muhasebeci sınıfının yapıcı metodu (_25_Constructor)
     public Muhasebeci(String ad, double maas) {
         super(ad, maas);
     }

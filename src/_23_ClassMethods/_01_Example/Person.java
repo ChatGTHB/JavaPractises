@@ -1,4 +1,4 @@
-package _23_ClassMethod._01_Example;
+package _23_ClassMethods._01_Example;
 
 public class Person {
     // Kişinin adı ve yaşı için değişkenler tanımlanıyor

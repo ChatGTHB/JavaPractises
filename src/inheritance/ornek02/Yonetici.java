@@ -4,7 +4,7 @@ package inheritance.ornek02;
 class Yonetici extends Calisan {
     private String departman;
 
-    // Yönetici sınıfının yapıcı metodu (constructor)
+    // Yönetici sınıfının yapıcı metodu (_25_Constructor)
     public Yonetici(String ad, double maas, String departman) {
         super(ad, maas);
         this.departman = departman;
