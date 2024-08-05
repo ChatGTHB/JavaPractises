@@ -1,6 +1,6 @@
 
 Task:
 
-1. Bir `Person` sınıfı oluşturun.
-2. Bu sınıfta `public`, `private`, `protected` ve `default` değişkenler tanımlayın.
-3. `TestPerson` sınıfında bu değişkenlere erişimi test edin.
+1. Bir `Config` sınıfı oluşturun.
+2. Bu sınıfta `public static final` bir `VERSION` değişkeni tanımlayın.
+3. `TestConfig` sınıfında bu değişkene erişim sağlayın ve ekrana yazdırın.
