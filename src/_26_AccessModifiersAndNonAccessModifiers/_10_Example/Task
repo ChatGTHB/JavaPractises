@@ -1,6 +1,8 @@
 
 Task:
 
-1. Bir `Person` sınıfı oluşturun.
-2. Bu sınıfta `public`, `private`, `protected` ve `default` değişkenler tanımlayın.
-3. `TestPerson` sınıfında bu değişkenlere erişimi test edin.
+1. Bir `DatabaseConnection` sınıfı oluşturun ve bu sınıfta `private static final` bir `instance` değişkeni tanımlayın.
+2. `DatabaseConnection` sınıfında bir `private` kurucu (`constructor`) tanımlayın.
+3. `getInstance` isimli bir `public static` metod tanımlayın ve `instance` değişkenini döndürün.
+4. `TestDatabaseConnection` sınıfında `DatabaseConnection` sınıfından bir örnek alın ve bağlantı mesajını ekrana yazdırın.
+5. Singleton deseni: Bu desen, bir sınıfın sadece bir örneğinin oluşturulmasını garanti eder ve bu örneğe global erişim sağlar.
