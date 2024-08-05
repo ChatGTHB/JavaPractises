@@ -1,0 +1,7 @@
+
+Task:
+
+1. Bir `StaticExample` sınıfı oluşturun.
+2. Bu sınıfta bir `static` değişken ve bir `static` metod tanımlayın.
+3. `TestStaticExample` sınıfında bu değişken ve metoda erişimi gösterin.
+

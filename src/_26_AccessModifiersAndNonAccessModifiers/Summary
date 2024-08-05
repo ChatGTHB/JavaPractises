@@ -1,0 +1,73 @@
+Access Modifiers ve Non-Access Modifiers
+
+Java'da sınıfların, yöntemlerin ve değişkenlerin erişim seviyelerini ve
+ek özelliklerini kontrol etmek için kullanılan belirleyiciler vardır.
+Bu belirleyiciler Access Modifiers ve Non-Access Modifiers olarak ikiye ayrılır.
+
+Access Modifiers (Erişim Belirleyiciler)
+
+Access Modifiers, sınıfların, yöntemlerin ve değişkenlerin erişim seviyelerini belirler.
+Dört ana Access Modifier vardır:
+
+1. public: Her yerden erişilebilir.
+2. protected: Aynı paket içerisindeki sınıflardan ve alt sınıflardan erişilebilir.
+3. default (Paket-Özel): Hiçbir Access Modifier belirtilmediğinde varsayılan olarak kullanılır ve sadece aynı paket içerisindeki sınıflardan erişilebilir.
+4. private: Sadece tanımlandığı sınıf içerisinden erişilebilir.
+
+Örnek:
+
+public class AccessModifiersExample {
+    public int publicVar = 1;
+    protected int protectedVar = 2;
+    int defaultVar = 3; // Default access modifier
+    private int privateVar = 4;
+
+    public void publicMethod() {}
+    protected void protectedMethod() {}
+    void defaultMethod() {} // Default access modifier
+    private void privateMethod() {}
+}
+
+Non-Access Modifiers (Erişim Dışı Belirleyiciler)
+
+Non-Access Modifiers, sınıfların, yöntemlerin ve değişkenlerin ek özelliklerini belirler.
+Java'da çeşitli Non-Access Modifiers vardır, ancak biz sadece static ve final üzerinde duracağız.
+Diğer Non-Access Modifiers şunlardır: abstract, synchronized, transient, volatile, ve native.
+
+1. static:
+   - Bir değişken veya metodun sınıfa ait olduğunu belirtir.
+   - Sınıfın herhangi bir nesnesi oluşturulmadan erişilebilir.
+   - Static değişkenler tüm nesneler arasında paylaşılır.
+
+   Örnek:
+
+   public class StaticExample {
+       public static int staticVar = 10;
+
+       public static void staticMethod() {
+           System.out.println("This is a static method.");
+       }
+   }
+
+2. final:
+   - Bir değişkenin değiştirilemez, bir metodun override edilemez veya bir sınıfın kalıtım yoluyla genişletilemez olduğunu belirtir.
+   - Final değişkenler için ilk değer atanmalıdır ve daha sonra değiştirilemez.
+
+   Örnek:
+
+   public final class FinalExample {
+       public final int finalVar = 100;
+
+       public final void finalMethod() {
+           System.out.println("This is a final method.");
+       }
+   }
+
+3. static final:
+   - Bir değişken hem static hem de final olarak tanımlandığında, bu değişken sınıfa aittir ve değeri değiştirilemez.
+
+   Örnek:
+
+   public class StaticFinalExample {
+       public static final int staticFinalVar = 500;
+   }
