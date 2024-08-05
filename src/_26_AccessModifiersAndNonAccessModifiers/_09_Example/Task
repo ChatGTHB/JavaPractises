@@ -1,6 +1,6 @@
 
 Task:
 
-1. Bir `Person` sınıfı oluşturun.
-2. Bu sınıfta `public`, `private`, `protected` ve `default` değişkenler tanımlayın.
-3. `TestPerson` sınıfında bu değişkenlere erişimi test edin.
+1. Bir `Employee` sınıfı oluşturun ve `private final` bir kimlik (`id`) değişkeni tanımlayın.
+2. `Employee` sınıfının kurucusunda (`constructor`) bu kimlik değişkenine değer atayın.
+3. `TestEmployee` sınıfında bir `Employee` nesnesi oluşturun ve kimlik değerini ekrana yazdırın.
