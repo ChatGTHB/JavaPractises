@@ -1,4 +1,4 @@
-package encapsulation.ornek02;
+package _28_Encapsulation._02_Example;
 
 import java.util.ArrayList;
 import java.util.List;

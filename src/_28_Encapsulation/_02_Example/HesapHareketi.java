@@ -1,4 +1,4 @@
-package encapsulation.ornek02;
+package _28_Encapsulation._02_Example;
 
 public class HesapHareketi {
 
