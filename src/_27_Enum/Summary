@@ -1,0 +1,29 @@
+
+ Enum Nedir?
+
+- Enum'lar (Enumeration): Java'da bir grup sabit değeri temsil eden özel veri türleridir.
+  Bir değişkenin belirli bir sabit değer seti almasını istediğinizde kullanılır.
+- Tanım: Enum'lar, sınıflar gibi tanımlanır ve her enum bir dizi sabit değeri içerir.
+  Bu sabitler, genellikle büyük harflerle yazılır.
+
+ Enum'ların Temel Özellikleri:
+
+1. Sabit Değerlerin Tanımlanması: Belirli bir grup sabit değeri bir arada tutar.
+   Örneğin, günler, aylar, renkler vb.
+2. Tip Güvenliği: Enum'lar, sadece belirli sabit değerlerin kullanılmasına izin verir,
+   bu da tip güvenliğini artırır.
+3. Kodun Okunabilirliği: Sabit değerler için anlamlı isimler kullanıldığı için
+   kodun daha okunabilir olmasını sağlar.
+4. Switch-Case ile Kullanım: Enum'lar genellikle switch-case yapıları ile birlikte kullanılır.
+
+    Basit Bir Enum Örneği:
+
+public enum Day {
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+
+Bu örnekte `Day` adında bir enum tanımlanmıştır ve
+haftanın günlerini temsil eden sabit değerleri içerir.
+
+Enum'lar sayesinde kod daha organize, anlaşılır ve hata yapma olasılığı düşük hale gelir.
+Hem sabit değerleri tanımlamak hem de bu değerleri işlemek için güçlü bir araçtır.
