@@ -1,0 +1,42 @@
+
+Task:
+İçecek Sipariş Sistemini Geliştirme
+
+Amaç:
+Bu görevin amacı, Java'da enum'ların kullanımını pekiştirmek ve
+daha gelişmiş özellikler ekleyerek mevcut bir kod tabanını
+nasıl genişletebileceğinizi öğrenmektir.
+Enum'ların nasıl kullanılacağını, onlara nasıl ek özellikler
+(örneğin, fiyat) ekleyebileceğinizi ve bu özelliklerin
+bir projede nasıl etkin bir şekilde kullanılacağını deneyimleyeceksiniz.
+
+Görev Açıklaması:
+
+Enum Genişletme:
+Mevcut Drinks enum'unu, içeceklerin fiyatlarını saklayacak şekilde genişletin.
+Her içecek için uygun bir fiyat belirleyin (örneğin, Cola için 1.5 TL, Su için 0.5 TL).
+
+Sipariş Detaylarının Genişletilmesi:
+Sipariş detaylarını gösterirken, seçilen içeceklerin adetleriyle birlikte fiyatlarını da gösterin.
+Ayrıca, sipariş edilen tüm içeceklerin toplam tutarını hesaplayarak ekrana yazdırın.
+
+Toplam Tutarı Hesaplayan Metot:
+Order sınıfında, sipariş edilen içeceklerin toplam tutarını hesaplayıp döndüren bir metot oluşturun.
+Bu metodu sipariş detayları ile birlikte göstermek üzere çağırın.
+
+Kullanıcı Etkileşimi:
+Kullanıcıdan seçtiği içecek ve bu içecekten kaç adet istediğini alın.
+Kullanıcının yaptığı seçim doğrultusunda bir sipariş oluşturun ve
+siparişin detaylarını (içecek adı, adet, fiyat ve toplam tutar) ekrana yazdırın.
+
+İpucu:
+Enum'lar sınıflara benzer şekilde davranabilir.
+Bu nedenle, enum içine eklenen her özellik (örneğin, fiyat)
+bir değişken olarak saklanabilir ve bu değişkenlere uygun getter metotları eklenebilir.
+Java'da enum'lar, sabit bir dizi değeri temsil etmekle kalmaz,
+aynı zamanda bu sabitlerle ilgili ek veriler de tutabilir.
+
+Örnek Senaryo:
+Kullanıcı "Limonata"yı seçer ve 2 adet sipariş verir.
+Program, Limonata'nın fiyatını 1.2 TL olarak belirler ve toplam tutarı 2.4 TL olarak hesaplar.
+Program, sipariş detaylarını ve toplam tutarı ekrana yazdırır.
