@@ -1,5 +1,6 @@
 package _21_Sets;
 
+import java.util.Random;
 import java.util.TreeSet;
 
 public class _02_Example {
@@ -19,12 +20,12 @@ public class _02_Example {
             treeSet.add(sayi);
         }
 
-        // 2. Yöntem: Random sınıfını kullanarak rastgele sayılar ekleme
-        // Random random=Summary Random();
-        // for (int i = 0; i < 10; i++) {
-        // int sayi2= random.nextInt(101);
-        // treeSet.add(sayi2);
-        // }
+//         2. Yöntem: Random sınıfını kullanarak rastgele sayılar ekleme
+//         Random random = new Random();
+//         for (int i = 0; i < 10; i++) {
+//         int sayi2= random.nextInt(101);
+//         treeSet.add(sayi2);
+//         }
 
         // TreeSet'in elemanlarını yazdırın
         System.out.println("TreeSet'in elemanları: " + treeSet);
