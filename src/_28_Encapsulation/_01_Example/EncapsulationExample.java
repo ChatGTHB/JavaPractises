@@ -6,13 +6,13 @@ public class EncapsulationExample {
         Person hazar = new Person();
 
         // "name" özelliğini "Hazar" olarak ayarlıyoruz
-        hazar.setName("Hazar");
+        hazar.name="Hazar";
 
         // "age" özelliğini 30 olarak ayarlıyoruz
         hazar.setAge(30);
 
         // Nesnenin name özelliğini alıyoruz ve ekrana yazdırıyoruz
-        System.out.println("Kişinin adı: " + hazar.getName());
+        System.out.println("Kişinin adı: " + hazar.name);
 
         // Nesnenin age özelliğini alıyoruz ve ekrana yazdırıyoruz
         System.out.println("Kişinin yaşı: " + hazar.getAge());
