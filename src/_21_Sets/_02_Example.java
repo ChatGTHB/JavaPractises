@@ -20,7 +20,7 @@ public class _02_Example {
         }
 
         // 2. Yöntem: Random sınıfını kullanarak rastgele sayılar ekleme
-        // Random random=new Random();
+        // Random random=Summary Random();
         // for (int i = 0; i < 10; i++) {
         // int sayi2= random.nextInt(101);
         // treeSet.add(sayi2);

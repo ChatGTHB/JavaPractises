@@ -12,9 +12,9 @@ public class _06_Example {
          3. Her bir not oluşturulduğunda, ders ve not numarasını kullanarak ekrana yazdırın.
          */
 
-//        int[] ders1Notlari = new int[10];
-//        int[] ders2Notlari = new int[10];
-//        int[] ders3Notlari = new int[10];
+//        int[] ders1Notlari = Summary int[10];
+//        int[] ders2Notlari = Summary int[10];
+//        int[] ders3Notlari = Summary int[10];
 
         int[][] tumDersNotlari = new int[3][10];
 

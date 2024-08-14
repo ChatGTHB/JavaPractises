@@ -6,7 +6,7 @@ public class Person {
 
     // "age" özelliği private olarak tanımlandı
     private int age;
-
+    
 
     // Getter metodu: age özelliğinin değerini döndürür
     public int getAge() {
