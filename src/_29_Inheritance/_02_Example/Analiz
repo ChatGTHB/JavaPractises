@@ -3,7 +3,7 @@ Bu projede, `Calisan` sınıfı ve ondan türetilen `Muhasebeci` ve `Yonetici` s
  `Muhasebeci` sınıfı, `Calisan` sınıfından türetilmiştir ve `maasHesapla()` metodu ile muhasebecinin maaşını hesaplamaktadır.
  `Yonetici` sınıfı da `Calisan` sınıfından türetilmiştir ve `departman` özelliği ile yöneticinin çalıştığı departmanı tutmaktadır.
 
-Bu projede kalıtım (inheritance) kullanılmıştır.
+Bu projede kalıtım (_29_Inheritance) kullanılmıştır.
 `Muhasebeci` ve `Yonetici` sınıfları, `Calisan` sınıfından türetilmiştir.
 Bu sayede, `Calisan` sınıfındaki özellikler ve davranışlar, `Muhasebeci` ve `Yonetici` sınıflarında da kullanılabilir hale gelmiştir.
 Örneğin, `Muhasebeci` sınıfı, `Calisan` sınıfındaki `ad` ve `maas` özelliklerini kullanabilir ve `bilgileriYazdir()` metodunu çağırabilir.

@@ -29,7 +29,7 @@ alt sınıfların ortak özelliklerini ve davranışlarını tanımlar.
 Alt sınıflar, Abstract Class'ın tamamlanmamış metodlarını uygulamak zorundadır.
 
 Kalıtım (Inheritance):
-Abstract Class'lar, kalıtım (inheritance) kullanarak genişletilebilir.
+Abstract Class'lar, kalıtım (_29_Inheritance) kullanarak genişletilebilir.
 Bir sınıf, yalnızca bir Abstract Class'ı genişletebilir,
 ancak birden fazla arayüz (interface) uygulayabilir.
 Abstract Class'lar, alt sınıfların ortak davranışlarını tanımlamak için kullanılırken,
