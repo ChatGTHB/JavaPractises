@@ -1,23 +1,67 @@
-Inheritance, nesne tabanlı programlama (OOP) paradigmasının önemli bir bileşenidir
-ve Java gibi dillerde kullanılır. Inheritance sayesinde bir sınıf,
-başka bir sınıftan özelliklerini ve davranışlarını miras alabilir.
 
-- İki temel kavram: üst sınıf (superclass) ve alt sınıf (subclass).
-Üst sınıf, miras veren sınıfı temsil ederken, alt sınıf, miras alan sınıfı temsil eder.
+Inheritance (Kalıtım) Nedir?
 
-- Miras alma ilişkisi, "is-a" ilişkisiyle ifade edilir.
-Örneğin, "Kedi bir Hayvan'dır" ifadesinde Kedi alt sınıfı, Hayvan ise üst sınıfı temsil eder.
+Inheritance (kalıtım), nesne yönelimli programlama (OOP) paradigmasının önemli bir bileşenidir
+ve Java gibi dillerde sıkça kullanılır. Inheritance sayesinde bir sınıf, başka bir sınıfın
+özelliklerini ve davranışlarını miras alabilir, böylece kod tekrarını önleyip daha organize
+ve yeniden kullanılabilir yapılar oluşturur.
 
-- Inheritance avantajları:
-  - Kod tekrarını önler ve kodun yeniden kullanılabilirliğini artırır.
-  - Kodun daha okunabilir ve sürdürülebilir olmasını sağlar.
-  - Sınıflar arasında hiyerarşik bir yapı oluşturarak kod organizasyonunu kolaylaştırır.
+Temel Kavramlar:
 
-- Java'da inheritance kullanımı:
-  - Bir sınıfın başka bir sınıftan miras alabilmesi için **extends** anahtar kelimesi kullanılır.
-  - Alt sınıf, üst sınıfın tüm public ve protected özelliklerini ve davranışlarını miras alır.
-  - Alt sınıf, üst sınıftan miras aldığı özellikleri isteğe bağlı olarak değiştirebilir veya yeni özellikler ekleyebilir.
+- Üst Sınıf (Superclass) / Alt Sınıf (Subclass):
+  - Üst sınıf (superclass), miras veren sınıfı temsil eder. Alt sınıf (subclass), üst sınıfın
+    özelliklerini ve metotlarını miras alır ve gerektiğinde bu özellikleri genişletebilir veya
+    özelleştirebilir.
+  - Örneğin, "Kedi bir Hayvan'dır" ifadesinde, `Hayvan` üst sınıfı, `Kedi` ise alt sınıfı temsil eder.
 
-- Inheritance örnekleri:
-  - Bir Araba sınıfı düşünelim. Bu sınıfın altında Sedan, SUV ve Hatchback gibi alt sınıflar olabilir.
-  Her alt sınıf, Araba sınıfından özelliklerini miras alırken, kendi özel özelliklerini de ekleyebilir.
+"is-a" İlişkisi:
+
+Inheritance, sınıflar arasında "is-a" (bir tür) ilişkisi kurar. Bu ilişki, alt sınıfın üst sınıfa
+ait özellikleri taşıdığını ifade eder. Örneğin:
+- Bir `Kedi`, bir `Hayvan`dır. (`Cat extends Animal`)
+- Bir `Sedan`, bir `Araba`dır. (`Sedan extends Car`)
+
+Inheritance’ın Avantajları:
+
+- Kod Tekrarını Azaltır: Ortak özellikler ve metotlar üst sınıfta tanımlanır, böylece alt sınıflarda
+  tekrar kod yazmaya gerek kalmaz.
+- Kodun Yeniden Kullanılabilirliğini Artırır: Üst sınıftaki kodlar farklı alt sınıflar tarafından
+  kullanılabilir.
+- Daha Okunabilir ve Sürdürülebilir Kod: Hiyerarşik yapı sayesinde kodun organizasyonu kolaylaşır ve
+  sınıfların davranışları daha düzenli bir şekilde yönetilir.
+- Kolay Genişletilebilirlik: Yeni alt sınıflar eklemek ve mevcut yapıyı genişletmek kolaydır.
+
+Java’da Inheritance Kullanımı:
+
+- Bir sınıfın başka bir sınıftan miras alabilmesi için `extends` anahtar kelimesi kullanılır:
+
+  public class Dog extends Animal {
+      // Dog sınıfı, Animal sınıfından miras alır
+  }
+
+- Alt sınıf, üst sınıfın tüm `public` ve `protected` özelliklerini ve metotlarını miras alır.
+  `private` olanlara ise erişim sağlayamaz.
+- Alt sınıf, üst sınıftan miras aldığı metotları **override** ederek (üstüne yazarak) değiştirebilir
+  veya kendi özel metotlarını ekleyebilir.
+
+Inheritance Örnekleri:
+
+- Bir `Car` (Araba) sınıfı düşünelim. Bu sınıfın altında `Sedan`, `SUV` ve `Hatchback` gibi
+  alt sınıflar olabilir. Her alt sınıf, `Car` sınıfından özelliklerini miras alırken, kendi
+  özel özelliklerini de ekleyebilir:
+
+  public class Car {
+      // Ortak özellikler: motor, renk, hız, vs.
+  }
+
+  public class Sedan extends Car {
+      // Sedan'a özgü özellikler ve davranışlar
+  }
+
+
+Kalıtımın Sınırlamaları:
+
+- Java'da bir sınıf sadece **tek bir** sınıftan miras alabilir. Çoklu kalıtım (multiple inheritance)
+  sınıflar arasında desteklenmez.
+- Java’da çoklu kalıtımı desteklemek için **interface** yapısı kullanılır.
+
