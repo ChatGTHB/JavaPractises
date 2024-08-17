@@ -1,4 +1,4 @@
-package inheritance.example;
+package _29_Inheritance._04_Example;
 
 // Employee sınıfı, tüm çalışanların ortak özelliklerini ve metotlarını temsil eder
 public class Employee {

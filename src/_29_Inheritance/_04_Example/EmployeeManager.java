@@ -1,4 +1,4 @@
-package inheritance.example;
+package _29_Inheritance._04_Example;
 
 public class EmployeeManager {
     public static void main(String[] args) {

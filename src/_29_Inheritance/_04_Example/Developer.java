@@ -1,4 +1,4 @@
-package inheritance.example;
+package _29_Inheritance._04_Example;
 
 // Developer sınıfı, Employee sınıfından miras alır
 public class Developer extends Employee {
