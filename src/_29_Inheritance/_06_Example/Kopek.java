@@ -1,4 +1,4 @@
-package _29_Inheritance._01_Example;
+package _29_Inheritance._06_Example;
 
 // Köpek sınıfı
 public class Kopek extends Hayvan {

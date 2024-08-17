@@ -1,4 +1,4 @@
-package _29_Inheritance._02_Example;
+package _29_Inheritance._07_Example;
 
 // Ana sınıf
 public class Ornek02 {
