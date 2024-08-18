@@ -1,0 +1,83 @@
+
+Polymorphism (Çok Biçimlilik) Nedir?
+
+Polymorphism (çok biçimlilik), nesne yönelimli programlamanın (OOP) önemli bir özelliğidir.
+Polymorphism sayesinde, aynı isimli metotlar farklı sınıflarda farklı şekillerde davranabilir.
+Bu özellik, kodun daha esnek ve yeniden kullanılabilir olmasını sağlar.
+
+Temel Kavramlar:
+
+- Compile-Time (Derleme Zamanı) Polymorphism:
+  - Method Overloading (Metot Aşırı Yükleme):
+    - Aynı sınıf içinde aynı isimli metotların farklı parametrelerle birden fazla kez tanımlanmasıdır.
+    - Derleme zamanında hangi metodun çağrılacağı belirlenir.
+    - Örneğin, bir `add()` metodu hem iki sayıyı hem de üç sayıyı toplayabilir.
+
+- Run-Time (Çalışma Zamanı) Polymorphism:
+  - Method Overriding (Metot Ezme):
+    - Alt sınıfın, üst sınıfta tanımlanan bir metodu kendi ihtiyaçlarına göre yeniden tanımlamasıdır.
+    - Çalışma zamanında hangi metodun çağrılacağı belirlenir.
+    - Örneğin, `makeSound()` metodu `Animal` üst sınıfında tanımlanmışsa, `Dog` ve `Cat` alt sınıfları
+      bu metodu özelleştirerek farklı sesler çıkarabilir.
+
+Polymorphism ile "is-a" İlişkisi:
+
+Polymorphism, inheritance ile birlikte çalışarak "is-a" (bir tür) ilişkisini güçlendirir.
+Bir alt sınıf, üst sınıfa ait bir tür olarak davranabilir ve bu sayede daha genel bir kodla çalışabiliriz.
+Örneğin:
+- Bir `Köpek`, bir `Hayvan`dır. (`Dog extends Animal`)
+- Bir `Sedan`, bir `Araba`dır. (`Sedan extends Car`)
+
+Polymorphism'in Avantajları:
+
+- Esneklik: Kodun daha esnek ve genişletilebilir olmasını sağlar. Yeni sınıflar eklenirken mevcut
+  kodda değişiklik yapmaya gerek kalmaz.
+- Kodun Yeniden Kullanılabilirliği: Aynı isimli metotlar farklı sınıflarda özelleştirilerek tekrar
+  kullanılabilir.
+- Kolay Genişletilebilirlik: Yeni alt sınıflar eklenerek daha modüler bir yapı oluşturulabilir.
+
+Java’da Polymorphism Kullanımı:
+
+- Method Overloading: Aynı sınıf içinde aynı isimde fakat farklı parametrelerle metotlar
+  tanımlanarak yapılır.
+
+  public class Calculator {
+      public int add(int a, int b) {
+          return a + b;
+      }
+
+      public int add(int a, int b, int c) {
+          return a + b + c;
+      }
+  }
+
+- Method Overriding: Alt sınıfta üst sınıftan miras alınan bir metodun özelleştirilmesiyle yapılır.
+
+  public class Animal {
+      public void makeSound() {
+          System.out.println("Hayvan ses çıkarıyor.");
+      }
+  }
+
+  public class Dog extends Animal {
+      @Override
+      public void makeSound() {
+          System.out.println("Köpek havlıyor.");
+      }
+  }
+
+Polymorphism Örnekleri:
+
+- Hayvanlar Hiyerarşisi:
+  - `Animal` üst sınıfında genel bir `makeSound()` metodu tanımlanır. Alt sınıflar (`Dog`, `Cat`) bu metodu
+    kendi ihtiyaçlarına göre özelleştirir.
+
+- Araçlar Hiyerarşisi:
+  - `Vehicle` üst sınıfı altında `Car` ve `Motorcycle` gibi alt sınıflar oluşturulabilir. Her araç türü,
+    motor çalıştırma davranışını kendi türüne göre özelleştirir.
+
+Polymorphism’in Sınırlamaları:
+
+- Java’da bir sınıfın **tek bir** üst sınıftan miras alması gerekir. Çoklu kalıtım (multiple inheritance)
+  desteklenmez.
+- Bir metot sadece tek bir alt sınıfta aynı isimle yeniden tanımlanabilir (overriding).
