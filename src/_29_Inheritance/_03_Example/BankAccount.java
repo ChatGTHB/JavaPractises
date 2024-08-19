@@ -20,11 +20,7 @@ public class BankAccount {
 
     // Para çekme metodu (alt sınıflarda özelleştirilebilir)
     public void withdraw(double amount) {
-        if (amount > balance) {
-            System.out.println("Yetersiz bakiye: " + amount + " çekilemez.");
-        } else {
-            balance -= amount;
-            System.out.println("Çekilen: " + amount + ". Kalan bakiye: " + balance);
-        }
+        balance -= amount;
+        System.out.println("Çekilen: " + amount + ". Kalan bakiye: " + balance);
     }
 }
