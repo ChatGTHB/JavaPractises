@@ -1,7 +1,6 @@
 package _29_Inheritance._03_Example;
 
 public class BankAccountManager {
-
     public static void main(String[] args) {
         // CheckingAccount nesnesi oluşturuluyor
         CheckingAccount checkingAccount = new CheckingAccount(12345, 2000.0);
