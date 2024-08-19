@@ -1,7 +1,6 @@
 package _29_Inheritance._02_Example;
 
 public class ShapeManager {
-
     public static void main(String[] args) {
         // Circle nesnesi oluşturuluyor
         Circle circle = new Circle(5.0);

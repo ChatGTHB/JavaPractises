@@ -1,7 +1,6 @@
 package _29_Inheritance._05_Example;
 
 public class CompanyManager {
-
     public static void main(String[] args) {
         // ITDepartment nesnesi oluşturuluyor
         ITDepartment itDepartment = new ITDepartment("IT", 50);
