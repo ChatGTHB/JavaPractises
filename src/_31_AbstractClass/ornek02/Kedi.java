@@ -1,4 +1,4 @@
-package abstractClass.ornek02;
+package _31_AbstractClass.ornek02;
 
 // Hayvan sınıfını genişleten Kedi adında bir sınıf tanımladık.
 public class Kedi extends Hayvan{

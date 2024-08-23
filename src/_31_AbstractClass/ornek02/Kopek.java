@@ -1,4 +1,4 @@
-package abstractClass.ornek02;
+package _31_AbstractClass.ornek02;
 // Hayvan sınıfını genişleten Kopek adında bir sınıf tanımladık.
 public class Kopek extends Hayvan{
     // Cins adında bir özellik tanımladık.

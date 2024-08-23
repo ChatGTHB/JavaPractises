@@ -1,4 +1,4 @@
-package abstractClass.ornek01;
+package _31_AbstractClass.ornek01;
 // Daire classı oluşturuldu.
 public class Daire extends GeometrikSekil{
 

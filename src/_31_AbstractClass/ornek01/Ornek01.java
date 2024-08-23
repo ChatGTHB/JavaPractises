@@ -1,4 +1,4 @@
-package abstractClass.ornek01;
+package _31_AbstractClass.ornek01;
 
 // main methodun bulunduğu class oluşturuldu
 public class Ornek01 {

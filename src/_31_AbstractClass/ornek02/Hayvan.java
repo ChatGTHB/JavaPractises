@@ -1,4 +1,4 @@
-package abstractClass.ornek02;
+package _31_AbstractClass.ornek02;
 // Hayvan adında bir abstract class oluşturuldu
 
 public abstract class Hayvan {

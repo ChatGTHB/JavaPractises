@@ -1,4 +1,4 @@
-package abstractClass.ornek02;
+package _31_AbstractClass.ornek02;
 
 // main metodunun bulunduğu sınıf, programın başlangıç noktasıdır.
 public class Ornek02 {

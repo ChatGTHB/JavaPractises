@@ -1,4 +1,4 @@
-package abstractClass.ornek03;
+package _31_AbstractClass.ornek03;
 
 // Ders sınıfını tanımladık
 class Ders {

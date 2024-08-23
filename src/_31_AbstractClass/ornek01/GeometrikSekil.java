@@ -1,4 +1,4 @@
-package abstractClass.ornek01;
+package _31_AbstractClass.ornek01;
 
 // GeometrikSekil abstract classı oluşturuldu.
 public abstract class GeometrikSekil {
