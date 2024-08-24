@@ -1,0 +1,16 @@
+
+Interface (Arayüz) Konusu Özeti
+
+Interface, içinde yalnızca sabit değişkenler ve soyut metotlar barındırabilen bir yapıdır.
+Sınıfların belirli bir davranışı uygulamalarını zorunlu kılar.
+Interface’ler Java’da çoklu kalıtımı mümkün kılmak için kullanılır,çünkü bir sınıf birden fazla interface'i uygulayabilir.
+Interface’lerdeki metotların gövdeleri bulunmaz ve bu metotları implement eden sınıflar, kendi gövdelerini tanımlar.
+
+Önemli Notlar:
+1. Interface içinde metotlar varsayılan olarak `public` ve `abstract` olarak kabul edilir.
+2. Interface içinde değişkenler varsayılan olarak `public`, `static`, ve `final` olarak kabul edilir.
+3. Bir sınıf, birden fazla interface'i `implements` anahtar kelimesiyle uygulayabilir.
+
+Interface kullanımı, soyutlamayı artırarak esnek ve ölçeklenebilir bir yapı sunar.
+Bir sınıfın belirli bir interface’i uygulaması, o sınıfın o interface’de tanımlı tüm metotları içermesini garanti eder.
+Interface'ler genellikle bir sınıfa “davranış” kazandırmak için kullanılır.
