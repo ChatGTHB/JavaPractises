@@ -12,3 +12,5 @@ Görev Açıklaması:
 
 İpucu:
 - Polymorphism ile alt sınıf nesneleri oluşturup üst sınıf referansı kullanarak alan hesaplamalarını yapın.
+- `Circle` sınıfında alanı `π * r^2` formülüyle,
+  `Rectangle` sınıfında ise `uzunluk * genişlik` formülüyle hesaplayabilirsiniz.
