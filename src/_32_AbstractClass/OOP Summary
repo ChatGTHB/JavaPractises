@@ -1,0 +1,35 @@
+
+Java'da OOP, sınıfların ve nesnelerin kullanıldığı bir programlama paradigmasıdır.
+OOP, programların daha organize, esnek ve sürdürülebilir olmasını sağlar.
+Java'daki OOP'nin temel kavramları şunlardır:
+
+Sınıflar (Classes):
+Sınıflar, nesnelerin özelliklerini ve davranışlarını tanımlayan şablonlardır.
+Bir sınıf, değişkenler (özellikler) ve fonksiyonlar (metotlar) içerir.
+Nesneler, sınıflardan türetilir ve bu sınıfın özelliklerini ve davranışlarını miras alır.
+
+Kalıtım (Inheritance):
+Kalıtım, bir sınıfın özelliklerini ve davranışlarını başka bir sınıfa aktarmasını sağlar.
+Java'da bir sınıf, yalnızca bir sınıftan kalıtım alabilir (tekli kalıtım),
+ancak çoklu kalıtım arayüzler (interfaces) kullanılarak sağlanabilir.
+
+Polimorfizm (Polymorphism):
+Polimorfizm, aynı isme sahip metotların farklı şekillerde kullanılmasını sağlar.
+Java'da polimorfizm, method overloading (metot aşırı yükleme) ve
+method overriding (metot geçersiz kılma) ile gerçekleştirilir.
+
+Kapsülleme (Encapsulation):
+Kapsülleme, sınıfların özelliklerine ve davranışlarına erişimi sınırlamak için kullanılır.
+Java'da kapsülleme, private, public, protected gibi erişim belirleyicileriyle ve getter/setter metotlarıyla sağlanır.
+
+Soyut Sınıflar (Abstract Classes):
+Soyut sınıflar, tamamlanmamış veya uygulanması gereken metotları içeren sınıflardır.
+Soyut sınıflar, "abstract" anahtar kelimesiyle tanımlanır ve diğer sınıflar tarafından genişletilebilir.
+Alt sınıflar, soyut metotları uygulamak zorundadır.
+
+Arayüzler (Interfaces):
+Arayüzler, bir sınıfın belirli bir davranışı uygulamasını zorlar.
+Arayüzler, sınıflar arasında bir sözleşme sağlar ve çoklu kalıtımı destekler.
+
+Java'da OOP kullanarak, kodunuzu daha modüler, yeniden kullanılabilir ve daha kolay anlaşılır hale getirebilirsiniz.
+OOP, büyük ölçekli projelerde özellikle faydalıdır ve kodunuzun daha iyi organize edilmesini sağlar.
