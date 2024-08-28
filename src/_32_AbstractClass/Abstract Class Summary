@@ -1,0 +1,30 @@
+
+Abstract Class Nedir?
+
+Abstract class'lar, soyutlama yapmak için kullanılan ve hem tamamlanmamış (abstract)
+hem de tamamlanmış (concrete) metotlar içerebilen sınıflardır.
+Tamamlanmamış metotlar yalnızca imza (signature) içerir ve alt sınıflar tarafından implement edilmelidir.
+Bu sınıflar, ortak özellik ve davranışları tanımlamak amacıyla kullanılır.
+
+Tamamlanmamış (Abstract) Metotlar:
+- Abstract class'lar tamamlanmamış, yani sadece imzaya sahip metotlar içerir. Bu metotların gövdesi yoktur.
+- Alt sınıflar, bu metotları mutlaka override ederek kendi işlevselliklerini sağlar.
+- Bu sayede alt sınıflar, ortak bir şablon üzerinden kendine özgü davranışları uygular.
+
+Tamamlanmış (Concrete) Metotlar:
+- Abstract class'lar tamamlanmış metotlar da içerebilir. Bu metotlar gövdeye sahiptir ve doğrudan kullanılabilir.
+- Alt sınıflar, bu metotları override etme seçeneğine sahiptir, ancak zorunlu değildir.
+- Bu, ortak davranışların alt sınıflar arasında paylaşılmasını sağlar.
+
+Nesne Oluşturma:
+- Abstract class'lar doğrudan nesne olarak oluşturulamaz.
+- Bunun yerine, abstract class'ı genişleten alt sınıflardan nesne oluşturulur.
+- Abstract class, bir şablon görevi görür ve alt sınıfların ortak özelliklerini ve davranışlarını tanımlar.
+
+Kalıtım (Inheritance):
+- Abstract class'lar, kalıtım yoluyla genişletilebilir. Bir sınıf yalnızca bir abstract class'ı genişletebilir.
+- Abstract class'lar, alt sınıfların ortak davranışlarını tanımlamak için kullanılırken,
+  arayüzler (interface), bir sınıfın belirli bir davranışı uygulamasını sağlar.
+
+Abstract class'lar, Java'da kodun daha modüler, yeniden kullanılabilir ve düzenli olmasını sağlar.
+Ortak özelliklere sahip sınıfları bir araya getirerek kod tekrarını azaltır ve daha sürdürülebilir bir yapı oluşturur.
