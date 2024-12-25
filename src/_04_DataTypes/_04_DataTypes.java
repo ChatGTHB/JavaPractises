@@ -3,17 +3,36 @@ package _04_DataTypes;
 public class _04_DataTypes {
     public static void main(String[] args) {
 
-//        Task 1:
-//        Bir değişken tanımlayın ve değeri 10000003333333 olan bu değişkenin 1000 fazlasını ekrana yazdırın.
+        // Task 1:
+        // 10000003333333 değerinde bir değişken tanımlayın ve 1000 ekleyerek sonucu yazdırın.
 
-        // Bir değişken tanımlayın ve değeri 10000003333333 olarak atayın.
+        // 🧮 Büyük sayılar için long veri tipi kullanarak bir değişken tanımlıyoruz
         long sayi = 10000003333333L;
 
-        // Değişkenin değerine 1000 ekleyin.
+        // ➕ Değişkene 1000 ekleyin
         long yeniSayi = sayi + 1000;
 
-        // Değişkenin yeni değerini ekrana yazdırın.
-        System.out.println("yeniSayi = " + yeniSayi);
+        // 🖨️ Yeni değeri ekrana yazdırın
+        System.out.println("Güncellenmiş Sayı = " + yeniSayi);
 
+        // Task 2:
+        // Orijinal sayıdan 5000 çıkarın ve sonucu ekrana yazdırın.
+        long cikarmaSonuc = sayi - 5000;
+        System.out.println("5000 Çıkarıldıktan Sonra = " + cikarmaSonuc);
+
+        // Task 3:
+        // Orijinal sayıyı 2 ile çarpın ve sonucu ekrana yazdırın.
+        long carpimSonuc = sayi * 2;
+        System.out.println("2 ile Çarpıldıktan Sonra = " + carpimSonuc);
+
+        // Task 4:
+        // Orijinal sayıyı 100'e bölün ve sonucu ekrana yazdırın.
+        long bolumSonuc = sayi / 100;
+        System.out.println("100'e Bölündükten Sonra = " + bolumSonuc);
+
+        // Bonus Görev:
+        // Orijinal sayının 300'e bölümünden kalanı hesaplayın ve ekrana yazdırın.
+        long kalan = sayi % 300;
+        System.out.println("300'e Bölümünden Kalan = " + kalan);
     }
 }
