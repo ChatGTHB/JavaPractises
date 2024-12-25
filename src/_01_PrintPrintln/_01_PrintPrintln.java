@@ -1,33 +1,25 @@
 package _01_PrintPrintln;
 
 public class _01_PrintPrintln {
-
     public static void main(String[] args) {
 
-        // 1. Print ve Println
+        // 🚀 Java dünyasına ilk adım: "Merhaba Dünya"
+        System.out.println("Merhaba Dünya!");
 
-        // Task 1:
-        // Konsola "Merhaba Dünya" yazdırın.
+        // 🎯 Farkı görmek için print kullanıyoruz (Satır başı yapmaz)
+        System.out.print("Yolda bir kedi gördüm. ");
+        System.out.print("Kedi miyav dedi.\n");
 
-        System.out.println("Merhaba Dünya");
-        System.out.print("Merhaba Dünya");
+        // 🔄 Biraz daha detay ekleyelim
+        System.out.print("Ardından bir köpek gördüm. ");
+        System.out.println("Köpek havladı.");
 
+        // 🪄 Boş bir satır eklemek için
+        System.out.println();
 
-        //Task 2:
-        //Konsola "Merhaba" ve "Dünya" kelimelerini aynı satırda yazdırın.
+        // 🌟 Kendinize bir kahve söyleyin. Konsol da bunu hissetsin.
+        System.out.print("☕ Kahve hazır!\n");
 
-        // "Merhaba" kelimesini konsola yazdırır ve satır başını yapmaz.
-        System.out.print("Merhaba ");
-        // "Dünya" kelimesini konsola yazdırır ve satır başı yapar
-        System.out.println("Dünya");
-
-
-        // Task 3:
-        // Konsola "Merhaba" ve "Dünya" kelimelerini farklı satırlarda yazdırın.
-
-        // "Merhaba" kelimesini konsola yazdırır ve satır başını yapar.
-        System.out.println("Merhaba");
-        // "Dünya" kelimesini konsola yazdırır ve satır başı yapar
-        System.out.println("Dünya");
+        // 🎉 ÖDEV: Kendinizi tanıtan 3 satırlık bir metin yazdırın!
     }
 }
