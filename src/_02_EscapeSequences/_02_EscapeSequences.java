@@ -1,43 +1,28 @@
 package _02_EscapeSequences;
 
 public class _02_EscapeSequences {
-
     public static void main(String[] args) {
 
-        // Example 1:
-        // "Merhaba\nDünya" yazdırın.
+        // 🎭 \n: Yeni satıra geçer
+        System.out.println("Kahve içiyordum.\nBirden kapı çaldı.");
 
-        // \n karakteri yeni bir satır başlatır.
-        System.out.println("Merhaba\nDünya");
-        /* Merhaba
-           Dünya
-         */
+        // 🚪 \t: Tab boşluğu ekler (Düzeni sağlamak için birebir)
+        System.out.println("Ürün\tAdet\tFiyat");
+        System.out.println("Elma\t2\t20 TL");
+        System.out.println("Portakal\t3\t30 TL");
 
-        // Example 2:
-        // "Java\tProgramlama" yazdırın.
+        // 🔗 \\: Ters eğik çizgi ekler (Dosya yollarında kullanılır)
+        System.out.println("C:\\Users\\Asus\\Desktop");
 
-        // \t karakteri bir tab boşluğu ekler.
-        System.out.println("Java\tProgramlama");
-        // Java	Programlama
+        // ✨ \": Çift tırnak ekler (Metin içerisinde tırnak kullanımı)
+        System.out.println("Ali \"Java öğreniyorum\" dedi.");
 
-        // Example 3:
-        // "Merhaba \"Dünya\"" yazdırın.
+        // 🎭 \b: Bir karakteri geri siler
+        System.out.println("Yanlışş\b yazım.");
 
-        // \" karakteri çift tırnak ekler.
-        System.out.println("Merhaba \"Dünya\"");
-        // Merhaba "Dünya"
+        // 🛠️ \r: Satır başına gider (üstüne yazar)
+        System.out.println("Norveç\rOslo");
 
-
-        // Example 4:
-
-        // \b: Backspace tusuna basma etkisi yani 1 karakter geri siler
-        System.out.println("Java\b Programlama");
-        // Jav Programlama
-
-        // Example 5:
-
-        // \r: Bulunduğu satırın başına gider
-        System.out.println("Java\r Programlama");
-        //  Programlama
+        // 🎉 ÖDEV: Konsolda 3 satırlık bir fatura tasarımı yapın!
     }
 }
