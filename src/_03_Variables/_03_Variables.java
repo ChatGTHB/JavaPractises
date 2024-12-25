@@ -3,61 +3,26 @@ package _03_Variables;
 public class _03_Variables {
     public static void main(String[] args) {
 
-        // Task 1:
-        // Bir değişken tanımlayın ve değeri 10 olan bu değişkeni 5 ile çarpıp sonucu ekrana yazdırın.
+        // 🎯 Bir sayı tanımlayın ve 20 ile çarpıp sonucu yazdırın
+        int sayi = 7;
+        int sonuc = sayi * 20;
+        System.out.println("Toplam Fiyat = " + sonuc + " TL");
 
-        // Bir tam sayı değişkeni tanımlayın ve değeri 10 olarak atayın.
-//        byte byteSayi=10;
-//        short shortSayi=10;
-        int intSayi=10;
-//        long longSayi=10;
+        // 💸 Ondalıklı bir sayı tanımlayın (KDV ekleyelim)
+        double fiyat = 45.75;
+        double kdvliFiyat = fiyat * 1.20;
+        System.out.println("KDV'li Fiyat = " + kdvliFiyat + " TL");
 
-        // Değişkeni 5 ile çarpın.
-        int sonuc= intSayi*5;
+        // 📏 Metin uzunluğunu ölçün
+        String sehir = "Trondheim";
+        int uzunluk = sehir.length();
+        System.out.println("Şehir Adı Uzunluğu = " + uzunluk);
 
-        // Sonucu ekrana yazdırın.
-        System.out.println("Sonuç = " + sonuc);
+        // 🔄 Boolean değişkeni ters çevirin
+        boolean stoktaVarMi = false;
+        boolean tersDurum = !stoktaVarMi;
+        System.out.println("Ürün Stok Durumu: " + tersDurum);
 
-        // Çıktı: Sonuç: 50
-
-
-//        Task 2:
-//        Bir ondalık sayı değişkeni tanımlayın ve değeri 3.14 olan bu değişkenin karesini ekrana yazdırın.
-
-        // Bir ondalık sayı (double) değişkeni tanımlayın ve değeri 3.14 olarak atayın.
-        double pi = 3.14;
-        // float piFloat=3.14f;
-
-        // Değişkenin karesini hesaplayın.
-        double piKare = pi * pi;
-
-        // Karesini ekrana yazdırın.
-        System.out.println("piKare = " + piKare);
-
-
-        //  Task 3:
-        // Bir metin değişkeni tanımlayın ve değeri "Java" olan bu metnin uzunluğunu ekrana yazdırın.
-
-        // Bir String değişkeni tanımlayın ve değeri "Java" olarak atayın.
-        String kelime="Java";
-
-        // String'in uzunluğunu alın.
-        int uzunluk=kelime.length();
-
-        // Uzunluğu ekrana yazdırın.
-        System.out.println("uzunluk = " + uzunluk);
-
-
-//        Task 4:
-//        Bir boolean değişkeni tanımlayın ve değeri true olan bu değişkeni tersine çevirip ekrana yazdırın.
-
-        // Bir boolean değişkeni tanımlayın ve değeri true olarak atayın.
-        boolean dogruMu = true;
-
-        // Değeri tersine çevirin.
-        boolean ters=!dogruMu;
-
-        // Tersine çevrilmiş değeri ekrana yazdırın.
-        System.out.println("ters = " + ters);
+        // 🎉 ÖDEV: 3 farklı ürün ve fiyatını tanımlayıp toplam fiyatı hesaplayın!
     }
 }
