@@ -3,59 +3,59 @@ package _05_TypeCasting;
 public class _05_TypeCasting {
     public static void main(String[] args) {
 
-//        Task 1:
-//        Bir ondalık sayı (double) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
+        // Task 1:
+        // Bir ondalık sayı (double) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
 
-        // Bir ondalık sayı (double) tanımlayın.
+        // 🔢 Bir ondalık sayı (double) tanımlıyoruz.
         double ondalikSayi = 7.48;
-        System.out.println("ondalikSayi = " + ondalikSayi);
+        System.out.println("Ondalık Sayı (double) = " + ondalikSayi);
 
-        // double değeri int tipine dönüştürün.
-        int tamSayi= (int) ondalikSayi;
+        // 🧑‍🎓 double değeri int tipine dönüştürüyoruz (kesir kısmı atılır).
+        int tamSayi = (int) ondalikSayi;
 
-        // Dönüştürülen değeri ekrana yazdırın.
-        System.out.println("tamSayi = " + tamSayi);
+        // 📟 Dönüştürülen tam sayıyı ekrana yazdırıyoruz.
+        System.out.println("Tam Sayı (int) = " + tamSayi);
 
 
-//        Task 2:
-//        Bir tam sayı (int) tanımlayın ve bu değeri ondalık sayı (double) veri tipine dönüştürüp ekrana yazdırın.
+        // Task 2:
+        // Bir tam sayı (int) tanımlayın ve bu değeri ondalık sayı (double) veri tipine dönüştürüp ekrana yazdırın.
 
-        // Bir tam sayı (int) tanımlayın.
+        // 🔢 Bir tam sayı (int) tanımlıyoruz.
         int tamSayi2 = 748;
-        System.out.println("tamSayi2 = " + tamSayi2);
+        System.out.println("Tam Sayı (int) = " + tamSayi2);
 
-        // int değeri double tipine dönüştürün.
+        // 🔄 int değeri otomatik olarak double tipine dönüştürülür (genişletme).
         double ondalikSayi2 = tamSayi2;
 
-        // Dönüştürülen değeri ekrana yazdırın.
-        System.out.println("ondalikSayi2 = " + ondalikSayi2);
+        // 📟 Dönüştürülen ondalık sayıyı ekrana yazdırıyoruz.
+        System.out.println("Ondalık Sayı (double) = " + ondalikSayi2);
 
 
-//        Task 3:
-//        Bir ondalık sayı (float) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
+        // Task 3:
+        // Bir ondalık sayı (float) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
 
-        // Bir ondalık sayı (float) tanımlayın
+        // 🔢 Bir ondalık sayı (float) tanımlıyoruz (f eklenerek float belirlenir).
         float floatSayi = 1.2F;
-        System.out.println("floatSayi = " + floatSayi);
+        System.out.println("Ondalık Sayı (float) = " + floatSayi);
 
-        // ondalık sayı değerini tam sayı tiine dönüştürün
+        // 🧑‍🎓 float değeri int tipine dönüştürülüyor (kesir kısmı atılır).
         int intSayi3 = (int) floatSayi;
 
-        // Dönüştürülen değeri ekrana yazdırın.
-        System.out.println("intSayi3 = " + intSayi3);
+        // 📟 Dönüştürülen tam sayıyı ekrana yazdırıyoruz.
+        System.out.println("Tam Sayı (int) = " + intSayi3);
 
 
-//        Task 4:
-//        Bir metin (String) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
+        // Task 4:
+        // Bir metin (String) tanımlayın ve bu değeri tam sayı (int) veri tipine dönüştürüp ekrana yazdırın.
 
+        // 📝 Bir metin (String) tanımlıyoruz (sayı formatında olmalı).
+        String sayiStr = "123";
+        System.out.println("String Sayı = " + sayiStr);
 
-        // Bir metin (String) tanımlayın.
-            String sayiStr="123";
+        // 🧑‍🎓 String değeri int tipine dönüştürülüyor (parseInt kullanılır).
+        int intSayi4 = Integer.parseInt(sayiStr);
 
-        // String değeri int tipine dönüştürün.
-            int intSayi4= Integer.parseInt(sayiStr);
-
-        // Dönüştürülen değeri ekrana yazdırın.
-        System.out.println("intSayi4 = " + intSayi4);
+        // 📟 Dönüştürülen tam sayıyı ekrana yazdırıyoruz.
+        System.out.println("Tam Sayı (int) = " + intSayi4);
     }
 }
