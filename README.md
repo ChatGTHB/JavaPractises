@@ -1,4 +1,4 @@
-# Java Practice Lab
+# Java Practice Lab - Master Core Java Concepts with Hands-On Exercises
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-JVM-blue?style=for-the-badge)
@@ -24,7 +24,7 @@ Welcome to the Java Practice Lab repository! This project is designed to provide
 - [📜 License](#📜-license)
 
 ## 📥 Installation
-To get started with JavaPractises, clone the repository to your local machine using the following command:
+To get started with Java Practice Lab, clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/ChatGTHB/java-practice-lab.git
 ```
@@ -94,7 +94,7 @@ The project is organized into the following modules, each focusing on a specific
 - **_32_AbstractClass**: Understanding and using abstract classes.
 
 ## 🛠️ Troubleshooting
-If you encounter any issues while working with the JavaPractises repository, please check the following:
+If you encounter any issues while working with the Java Practice Lab repository, please check the following:
 - Ensure you have the correct version of JDK installed.
 - Verify that your IDE is properly configured for Java development.
 - Refer to the module-specific documentation for any additional setup instructions.
