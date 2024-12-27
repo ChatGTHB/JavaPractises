@@ -1,4 +1,4 @@
-# JavaPractises
+# Java Practice Lab
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-JVM-blue?style=for-the-badge)
@@ -26,14 +26,14 @@ Welcome to the JavaPractises repository! This project is designed to provide a c
 ## 📥 Installation
 To get started with JavaPractises, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/ChatGTHB/JavaPractises.git
+git clone https://github.com/ChatGTHB/java-practice-lab.git
 ```
 Make sure you have Java Development Kit (JDK) installed on your machine. You can download it from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 Alternatively, you can open the project directly in IntelliJ IDEA from VCS:
 1. Open IntelliJ IDEA.
 2. Select `File` -> `New` -> `Project from Version Control`.
-3. In the dialog that appears, enter the URL of the repository: `https://github.com/ChatGTHB/JavaPractises.git`.
+3. In the dialog that appears, enter the URL of the repository: `https://github.com/ChatGTHB/java-practice-lab.git`.
 4. Click `Clone`.
 
 ## ⚙️ Usage
