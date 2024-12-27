@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ChatGTHB/JavaPatikaProjects?style=for-the-badge)
 
 ## 💡 Introduction
-Welcome to the JavaPractises repository! This project is designed to provide a comprehensive set of exercises to strengthen your core Java skills. Whether you're a beginner or looking to solidify your understanding, these exercises will guide you through fundamental and advanced Java topics.
+Welcome to the Java Practice Lab repository! This project is designed to provide a comprehensive set of exercises to strengthen your core Java skills. Whether you're a beginner or looking to solidify your understanding, these exercises will guide you through fundamental and advanced Java topics.
 
 ## Table of Contents
 - [💡 Introduction](#💡-introduction)
