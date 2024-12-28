@@ -1,4 +1,4 @@
-# JavaPractises
+# Java Practice Lab - Master Core Java Concepts with Hands-On Exercises
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-JVM-blue?style=for-the-badge)
@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ChatGTHB/JavaPatikaProjects?style=for-the-badge)
 
 ## 💡 Introduction
-Welcome to the JavaPractises repository! This project is designed to provide a comprehensive set of exercises to strengthen your core Java skills. Whether you're a beginner or looking to solidify your understanding, these exercises will guide you through fundamental and advanced Java topics.
+Welcome to the Java Practice Lab repository! This project is designed to provide a comprehensive set of exercises to strengthen your core Java skills. Whether you're a beginner or looking to solidify your understanding, these exercises will guide you through fundamental and advanced Java topics.
 
 ## Table of Contents
 - [💡 Introduction](#💡-introduction)
@@ -24,16 +24,16 @@ Welcome to the JavaPractises repository! This project is designed to provide a c
 - [📜 License](#📜-license)
 
 ## 📥 Installation
-To get started with JavaPractises, clone the repository to your local machine using the following command:
+To get started with Java Practice Lab, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/ChatGTHB/JavaPractises.git
+git clone https://github.com/ChatGTHB/java-practice-lab.git
 ```
 Make sure you have Java Development Kit (JDK) installed on your machine. You can download it from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 Alternatively, you can open the project directly in IntelliJ IDEA from VCS:
 1. Open IntelliJ IDEA.
 2. Select `File` -> `New` -> `Project from Version Control`.
-3. In the dialog that appears, enter the URL of the repository: `https://github.com/ChatGTHB/JavaPractises.git`.
+3. In the dialog that appears, enter the URL of the repository: `https://github.com/ChatGTHB/java-practice-lab.git`.
 4. Click `Clone`.
 
 ## ⚙️ Usage
@@ -94,7 +94,7 @@ The project is organized into the following modules, each focusing on a specific
 - **_32_AbstractClass**: Understanding and using abstract classes.
 
 ## 🛠️ Troubleshooting
-If you encounter any issues while working with the JavaPractises repository, please check the following:
+If you encounter any issues while working with the Java Practice Lab repository, please check the following:
 - Ensure you have the correct version of JDK installed.
 - Verify that your IDE is properly configured for Java development.
 - Refer to the module-specific documentation for any additional setup instructions.
