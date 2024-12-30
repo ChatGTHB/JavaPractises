@@ -26,14 +26,14 @@ Welcome to the Java Practice Lab repository! This project is designed to provide
 ## 📥 Installation
 To get started with Java Practice Lab, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/ChatGTHB/java-practice-lab.git
+git clone https://github.com/cihat-kose/java-practice-lab.git
 ```
 Make sure you have Java Development Kit (JDK) installed on your machine. You can download it from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 Alternatively, you can open the project directly in IntelliJ IDEA from VCS:
 1. Open IntelliJ IDEA.
 2. Select `File` -> `New` -> `Project from Version Control`.
-3. In the dialog that appears, enter the URL of the repository: `https://github.com/ChatGTHB/java-practice-lab.git`.
+3. In the dialog that appears, enter the URL of the repository: `https://github.com/cihat-kose/java-practice-lab.git`.
 4. Click `Clone`.
 
 ## ⚙️ Usage
@@ -102,7 +102,7 @@ If you encounter any issues while working with the Java Practice Lab repository,
 For further assistance, you can open an issue in the GitHub repository.
 
 ## 👥 Contributors
-- [ChatGTHB](https://github.com/ChatGTHB)
+- [cihat-kose](https://github.com/cihat-kose)
 
 ## 🤝 Contributing
 Contributions are welcome!
